@@ -26,8 +26,11 @@ Pour charger un style dans QGIS :
 Modèles pour QGIS
 =====
 
+
 - Indice de forme :
   - [Indice d'élongation] (models/Indice_elongation.model)
   - [Indice de Gravelius] (models/Indice_gravellius.model)
   - [Indice de Miller] (models/Indice_miller.model)
   - [Indice de Morton] (models/Indice_morton.model)
+
+  Discussion sur [Georezo] (http://georezo.net/forum/viewtopic.php?pid=143436#p143436)
