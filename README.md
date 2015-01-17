@@ -26,7 +26,8 @@ Pour charger un style dans QGIS :
 Modèles pour QGIS
 =====
 
-- [Indice d'élongation] (models/Indice_elongation.model)
-- [Indice de Gravelius] (models/Indice_gravellius.model)
-- [Indice de Miller] (models/Indice_miller.model)
-- [Indice de Morton] (models/Indice_morton.model)
+- Indice de forme :
+  - [Indice d'élongation] (models/Indice_elongation.model)
+  - [Indice de Gravelius] (models/Indice_gravellius.model)
+  - [Indice de Miller] (models/Indice_miller.model)
+  - [Indice de Morton] (models/Indice_morton.model)
