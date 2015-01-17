@@ -11,9 +11,9 @@ Pour charger un style dans QGIS :
 Les styles disponibles :  
 - [Corine Land Cover] (http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/li/1825.html) :
     Fichiers de style créés pour QGIS 2.6 (Attention à la compatibilité)  
-    - [CLC niveau 1] (styles/clc/clc_niveau1.qml)
-    - [CLC niveau 2] (styles/clc/clc_niveau2.qml)
-    - [CLC niveau 3] (styles/clc/clc_niveau3.qml)
-    - [CLC DOM niveau 1 - Outre-mer] (styles/clc/clc_dom_niveau1.qml)
-    - [CLC DOM niveau 2 - Outre-mer] (styles/clc/clc_dom_niveau2.qml)
-    - [CLC DOM niveau 3 - Outre-mer] (styles/clc/clc_dom_niveau3.qml)
+    - [CLC Niveau 1] (styles/clc/clc_niveau1.qml)
+    - [CLC Niveau 2] (styles/clc/clc_niveau2.qml)
+    - [CLC Niveau 3] (styles/clc/clc_niveau3.qml)
+    - [CLC DOM Niveau 1] (styles/clc/clc_dom_niveau1.qml)
+    - [CLC DOM Niveau 2] (styles/clc/clc_dom_niveau2.qml)
+    - [CLC DOM Niveau 3] (styles/clc/clc_dom_niveau3.qml)
