@@ -22,7 +22,6 @@ Pour charger un style dans QGIS :
     - [CLC DOM Niveau 2] (styles/clc/clc_dom_niveau2.qml)
     - [CLC DOM Niveau 3] (styles/clc/clc_dom_niveau3.qml)
 
-
 Modèles pour QGIS
 =====
 
