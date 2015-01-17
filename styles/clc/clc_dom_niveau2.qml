@@ -1,10 +1,10 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="2.6.1-Brighton" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="ID">
+    <edittype widgetv2type="TextEdit" name="CODE_06">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="CODE_06">
+    <edittype widgetv2type="TextEdit" name="ID">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="AREA_HA">
@@ -12,22 +12,22 @@
     </edittype>
   </edittypes>
   <renderer-v2 symbollevels="0" type="RuleRenderer">
-    <rules key="{d7c97d3e-ee46-4404-9de6-4d4a8c5cb912}">
-      <rule description="Urban fabric" filter="left( &quot;CODE_06&quot;,2)=11" key="{b2a512e4-96b4-4749-854a-ba49f6ebf8f0}" symbol="0" label="Zones urbanisées"/>
-      <rule description="Industrial, commercial and&#xd;transport units" filter="left( &quot;CODE_06&quot;,2)=12" key="{982569bd-e9ad-4cd1-8daf-502eea3d6695}" symbol="1" label="Zones industrielles ou commerciales&#xd;et réseaux de communication"/>
-      <rule description="Mine, dump and construction&#xd;sites" filter="left( &quot;CODE_06&quot;,2)=13" key="{1a5c4ca9-5993-4a9b-8ca4-032d6e3958f3}" symbol="2" label="Mines, décharges et chantiers"/>
-      <rule description="Artificial, non-agricultural&#xd;vegetated areas" filter="left( &quot;CODE_06&quot;,2)=14" key="{d32c2ce6-a21a-409f-864f-0f7c6c1c0537}" symbol="3" label="Espaces verts artificialisés, non&#xd;agricoles"/>
-      <rule description="Arable land" filter="left( &quot;CODE_06&quot;,2)=21" key="{6430ad02-4c23-48f8-88cc-a969247faf41}" symbol="4" label="Terres arables"/>
-      <rule description="Permanent crops" filter="left( &quot;CODE_06&quot;,2)=22" key="{0d608e30-3ddd-4945-97f1-1c2eace69625}" symbol="5" label="Cultures permanentes"/>
-      <rule description="Pastures" filter="left( &quot;CODE_06&quot;,2)=23" key="{99cbb077-0e2e-4bfe-9b0c-44fe978ebd0a}" symbol="6" label="Prairies"/>
-      <rule description="Heterogeneous agricultural&#xd;areas" filter="left( &quot;CODE_06&quot;,2)=24" key="{cd597805-fbf1-4002-9462-22e3b9a885b9}" symbol="7" label="Zones agricoles hétérogènes"/>
-      <rule description="Forests" filter="left( &quot;CODE_06&quot;,2)=31" key="{6718e128-6c16-4eba-a379-b232c8af71ac}" symbol="8" label="Forêts"/>
-      <rule description="Scrub and/or herbaceous&#xd;vegetation associations" filter="left( &quot;CODE_06&quot;,2)=32" key="{b4dc5e92-ee2f-46fe-ad88-37b82ae8cc4d}" symbol="9" label="Milieux à végétation arbustive et/ou&#xd;herbacée"/>
-      <rule description="Open spaces with little or no&#xd;vegetation" filter="left( &quot;CODE_06&quot;,2)=33" key="{808e112a-32c9-4e2c-bd75-daa3e425927b}" symbol="10" label="Espaces ouverts, sans ou avec peu de&#xd;végétation"/>
-      <rule description="Inland wetlands" filter="left( &quot;CODE_06&quot;,2)=41" key="{fc5d448b-c0fc-4f20-aee1-8148f0ce9566}" symbol="11" label="Zones humides intérieures"/>
-      <rule description="Maritime wetlands" filter="left( &quot;CODE_06&quot;,2)=42" key="{0ed5fee5-0b5f-4a5e-ad30-db9e392ce242}" symbol="12" label="Zones humides maritimes"/>
-      <rule description="Inland waters" filter="left( &quot;CODE_06&quot;,2)=51" key="{704efce1-ee75-414f-a563-82408591707a}" symbol="13" label="Eaux continentales"/>
-      <rule description="Marine waters" filter="left( &quot;CODE_06&quot;,2)=52" key="{390c4606-65e4-48c0-895b-60c97f7a8ccd}" symbol="14" label="Eaux maritimes"/>
+    <rules key="{0ba462ce-4747-4631-a088-1919dd69e275}">
+      <rule description="Urban fabric" filter="left( &quot;CODE_06&quot;,2)=11" key="{94718aa0-da23-4a54-b97d-db1147a6a6c6}" symbol="0" label="Zones urbanisées"/>
+      <rule description="Industrial, commercial and&#xd;transport units" filter="left( &quot;CODE_06&quot;,2)=12" key="{9cc48d7f-4773-4b86-860b-608ee1024d1c}" symbol="1" label="Zones industrielles ou commerciales&#xd;et réseaux de communication"/>
+      <rule description="Mine, dump and construction&#xd;sites" filter="left( &quot;CODE_06&quot;,2)=13" key="{fc22eea7-0773-40bf-afdb-015bbf8598bf}" symbol="2" label="Mines, décharges et chantiers"/>
+      <rule description="Artificial, non-agricultural&#xd;vegetated areas" filter="left( &quot;CODE_06&quot;,2)=14" key="{cb572c91-b92c-44ba-943e-0902e331e3d8}" symbol="3" label="Espaces verts artificialisés, non&#xd;agricoles"/>
+      <rule description="Arable land" filter="left( &quot;CODE_06&quot;,2)=21" key="{219f9a3e-9b5c-4752-8153-1d5413b276f4}" symbol="4" label="Terres arables"/>
+      <rule description="Permanent crops" filter="left( &quot;CODE_06&quot;,2)=22" key="{9dd4f402-2175-4035-a766-67b358bb7b82}" symbol="5" label="Cultures permanentes"/>
+      <rule description="Pastures" filter="left( &quot;CODE_06&quot;,2)=23" key="{ea1ce4bf-0914-44cb-ab38-6789989395ac}" symbol="6" label="Prairies"/>
+      <rule description="Heterogeneous agricultural&#xd;areas" filter="left( &quot;CODE_06&quot;,2)=24" key="{881a63f4-1e77-4e81-bec0-71456a6dddd4}" symbol="7" label="Zones agricoles hétérogènes"/>
+      <rule description="Forests" filter="left( &quot;CODE_06&quot;,2)=31" key="{54aadbb5-f991-47e6-908c-a864ab67a0d8}" symbol="8" label="Forêts"/>
+      <rule description="Scrub and/or herbaceous&#xd;vegetation associations" filter="left( &quot;CODE_06&quot;,2)=32" key="{bd5f275e-85af-4271-bb8e-6792002b8dd1}" symbol="9" label="Milieux à végétation arbustive et/ou&#xd;herbacée"/>
+      <rule description="Open spaces with little or no&#xd;vegetation" filter="left( &quot;CODE_06&quot;,2)=33" key="{b97b5e8f-8ee8-42f8-9b5b-d5fceb43a45c}" symbol="10" label="Espaces ouverts, sans ou avec peu de&#xd;végétation"/>
+      <rule description="Inland wetlands" filter="left( &quot;CODE_06&quot;,2)=41" key="{81afbed0-29dc-4288-9d76-626083282c85}" symbol="11" label="Zones humides intérieures"/>
+      <rule description="Maritime wetlands" filter="left( &quot;CODE_06&quot;,2)=42" key="{f28b316a-0d3c-4862-86d7-7a69d0b72903}" symbol="12" label="Zones humides maritimes"/>
+      <rule description="Inland waters" filter="left( &quot;CODE_06&quot;,2)=51" key="{69bfe381-d5b7-4875-a48f-095abfaf82d5}" symbol="13" label="Eaux continentales"/>
+      <rule description="Marine waters" filter="left( &quot;CODE_06&quot;,2)=52" key="{ea1910f7-96de-4468-8d3e-feeae6d958d5}" symbol="14" label="Eaux maritimes"/>
     </rules>
     <symbols>
       <symbol alpha="1" type="fill" name="0">

@@ -1,87 +1,98 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.4.0-Chugiak" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.6.1-Brighton" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+  <edittypes>
+    <edittype widgetv2type="TextEdit" name="ID">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="CODE_06">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="AREA_HA">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+  </edittypes>
   <renderer-v2 symbollevels="0" type="RuleRenderer">
-    <rules>
-      <rule description="Artificial surfaces" filter="left( &quot;CODE_06&quot;,1)=1" symbol="0" label="Territoires artificialisés"/>
-      <rule description="Agricultural areas" filter="left( &quot;CODE_06&quot;,1)=2" symbol="1" label="Territoires agricoles"/>
-      <rule description="Forest and semi natural areas" filter="left( &quot;CODE_06&quot;,1)=3" symbol="2" label="Forêts et milieux semi-naturels"/>
-      <rule description="Wetlands" filter="left( &quot;CODE_06&quot;,1)=4" symbol="3" label="Zones humides"/>
-      <rule description="Water bodies" filter="left( &quot;CODE_06&quot;,1)=5" symbol="4" label="Surfaces en eau"/>
+    <rules key="{9f6183a3-8a23-40b2-8833-1b5d2fa3dbbc}">
+      <rule description="Artificial surfaces" filter="left( &quot;CODE_06&quot;,1)=1" key="{e88b3a13-bb8e-4590-9a2b-ef07bd589aca}" symbol="0" label="Territoires artificialisés"/>
+      <rule description="Agricultural areas" filter="left( &quot;CODE_06&quot;,1)=2" key="{66afc79d-ddce-48c4-885b-8f94fe47d9b5}" symbol="1" label="Territoires agricoles"/>
+      <rule description="Forest and semi natural areas" filter="left( &quot;CODE_06&quot;,1)=3" key="{07f5e70a-93f0-4fa5-82d6-51963831cd10}" symbol="2" label="Forêts et milieux semi-naturels"/>
+      <rule description="Wetlands" filter="left( &quot;CODE_06&quot;,1)=4" key="{12be3109-512d-4932-94ce-e2ceab756acd}" symbol="3" label="Zones humides"/>
+      <rule description="Water bodies" filter="left( &quot;CODE_06&quot;,1)=5" key="{3f60d605-9839-468f-8e12-73460076c7eb}" symbol="4" label="Surfaces en eau"/>
     </rules>
     <symbols>
       <symbol alpha="1" type="fill" name="0">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="border_width_unit" v="MM"/>
           <prop k="color" v="230,0,77,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="no"/>
-          <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="1">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="border_width_unit" v="MM"/>
           <prop k="color" v="255,255,168,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="no"/>
-          <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="2">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="border_width_unit" v="MM"/>
           <prop k="color" v="128,255,0,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="no"/>
-          <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="3">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="border_width_unit" v="MM"/>
           <prop k="color" v="166,166,255,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="no"/>
-          <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="fill" name="4">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="border_width_unit" v="MM"/>
           <prop k="color" v="0,204,242,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
-          <prop k="style_border" v="no"/>
-          <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
     </symbols>
@@ -116,7 +127,7 @@
     <property key="labeling/fieldName" value=""/>
     <property key="labeling/fontBold" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
-    <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
+    <property key="labeling/fontFamily" value=".Helvetica Neue DeskInterface"/>
     <property key="labeling/fontItalic" value="false"/>
     <property key="labeling/fontLetterSpacing" value="0"/>
     <property key="labeling/fontLimitPixelSize" value="false"/>
@@ -254,11 +265,6 @@
     <multilineenabled fieldname="" on=""/>
     <selectedonly on=""/>
   </labelattributes>
-  <edittypes>
-    <edittype labelontop="0" editable="1" name="ID"/>
-    <edittype labelontop="0" editable="1" name="CODE_06"/>
-    <edittype labelontop="0" editable="1" name="AREA_HA"/>
-  </edittypes>
   <editform></editform>
   <editforminit></editforminit>
   <featformsuppress>0</featformsuppress>
