@@ -33,4 +33,4 @@ Modèles pour QGIS
   - [Indice de Miller] (models/Indice_miller.model)
   - [Indice de Morton] (models/Indice_morton.model)
 
-  Discussion sur [Georezo] (http://georezo.net/forum/viewtopic.php?pid=143436#p143436)
+En lien, une discussion sur [Georezo : "elongation, formes des polygones"] (http://georezo.net/forum/viewtopic.php?pid=143436#p143436)
