@@ -10,8 +10,8 @@ Pour charger un style dans QGIS :
 
 
 - Les styles disponibles :
-    - Corine Land Cover : Fichiers de style créés pour QGIS 2.6 (Attention à la compatibilité)
-    L'utilisation de ces fichiers permet un meilleur rendu de la donnée vectorielle
+    - Corine Land Cover :
+    Fichiers de style créés pour QGIS 2.6 (Attention à la compatibilité)  
         - [CLC niveau 1] (styles/clc/clc_niveau1.qml)
         - [CLC niveau 2] (styles/clc/clc_niveau2.qml)
         - [CLC niveau 3] (styles/clc/clc_niveau3.qml)
