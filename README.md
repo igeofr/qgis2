@@ -37,4 +37,4 @@ Voici plusieurs modèles créés à partir du modeleur graphique de QGIS
   - [Indice de Miller] (models/Indice_miller.model) : Indice d'étalement qui tend vers 0 pour une forme plus étirée.
   - [Indice de Morton] (models/Indice_morton.model) : Rapport de la superficie d'une entité, à celle d'un cercle de même périmètre (Vaut 1 si le polygone est un cercle, 0 s'il est de surface nulle)  
 
-En lien, une discussion sur [Georezo : "elongation, formes des polygones"] (http://georezo.net/forum/viewtopic.php?pid=143436#p143436)
+En lien, avec une discussion sur [Georezo : "elongation, formes des polygones"] (http://georezo.net/forum/viewtopic.php?pid=143436#p143436)
