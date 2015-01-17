@@ -3,7 +3,7 @@ Fichiers de style pour QGIS
 
 Pour charger un style dans QGIS :
 
-1. Clic droit sur la couche  
+1. Clic droit sur la couche
 2. Ouvrir les propriétés de la couche  
 3. Se placer sur l'onglet : "Style"
 4. Pour terminer : "Charger le style..." au format qml
