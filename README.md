@@ -12,11 +12,11 @@ Les styles disponibles :
 - [Corine Land Cover] (http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/li/1825.html) :
     Fichiers de style créés pour QGIS 2.6 (Attention à la compatibilité)
 
-    Pour la métropole  
+    Pour la métropole :
     - [CLC Niveau 1] (styles/clc/clc_niveau1.qml)
     - [CLC Niveau 2] (styles/clc/clc_niveau2.qml)
-    - [CLC Niveau 3] (styles/clc/clc_niveau3.qml)
-    Pour les départements d'outre-mer (DOM)
+    - [CLC Niveau 3] (styles/clc/clc_niveau3.qml)  
+    Pour les départements d'outre-mer (DOM) :  
     - [CLC DOM Niveau 1] (styles/clc/clc_dom_niveau1.qml)
     - [CLC DOM Niveau 2] (styles/clc/clc_dom_niveau2.qml)
     - [CLC DOM Niveau 3] (styles/clc/clc_dom_niveau3.qml)
