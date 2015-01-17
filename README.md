@@ -1,7 +1,8 @@
-Fichiers liés à QGIS2
+Fichiers de style pour QGIS
 =====
 
 Pour charger un style dans QGIS :
+    
 1. Clic droit sur la couche  
 2. Ouvrir les propriétés de la couche  
 3. Se placer sur l'onglet : "Style"  
