@@ -8,7 +8,6 @@ Pour charger un style dans QGIS :
 3. Se placer sur l'onglet : "Style"  
 4. Pour terminer : "Charger le style..." au format qml
 
-
 - Les styles disponibles :
     - Corine Land Cover :
     Fichiers de style créés pour QGIS 2.6 (Attention à la compatibilité)  
