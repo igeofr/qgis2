@@ -1,12 +1,11 @@
-Qgis2
-=====
 Fichiers liés à QGIS2
+=====
 
 Pour charger un style dans QGIS :
 1. Clic droit sur la couche
 2. Ouvrir les propriétés de la couche
-3. Se placer sur l'onglet : Style
-4. En bas il es possible de charger le fichier de style au format qml
+3. Se placer sur l'onglet : "Style"
+4. Pour terminer : "Charger le style..." au format qml
 
 
 - Les styles disponibles :
@@ -15,7 +14,6 @@ Pour charger un style dans QGIS :
         - [CLC niveau 1] (styles/clc/clc_niveau1.qml)
         - [CLC niveau 2] (styles/clc/clc_niveau2.qml)
         - [CLC niveau 3] (styles/clc/clc_niveau3.qml)
-
         - [CLC DOM niveau 1] (styles/clc/clc_dom_niveau1.qml)
         - [CLC DOM niveau 2] (styles/clc/clc_dom_niveau2.qml)
         - [CLC DOM niveau 3] (styles/clc/clc_dom_niveau3.qml)
