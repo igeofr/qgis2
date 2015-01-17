@@ -1,0 +1,146 @@
+{
+    "values": {
+        "inputs": {
+            "VECTORLAYER_POLYGONE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 149.0, 
+                            "x": 164.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_POLYGONE", 
+                            "shapetype": [
+                                2
+                            ], 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Polygone"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_FORMULE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 147.0, 
+                            "x": 574.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_FORMULE", 
+                            "default": "(4*$pi*$area )/( $perimeter * $perimeter )", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Formule"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_NOMDUCHAMP": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 148.0, 
+                            "x": 369.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_NOMDUCHAMP", 
+                            "default": "IM", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Nom du champ de l'indice de Miller"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "group": "Indice de forme", 
+        "name": "Indice de Miller", 
+        "algs": {
+            "QGISFIELDCALCULATOR_1": {
+                "values": {
+                    "name": "QGISFIELDCALCULATOR_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT_LAYER": {
+                            "values": {
+                                "description": "Fichier en sortie", 
+                                "pos": {
+                                    "values": {
+                                        "y": 320.0, 
+                                        "x": 383.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 244.0, 
+                            "x": 373.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "FIELD_TYPE": 0, 
+                        "NEW_FIELD": true, 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "name": "VECTORLAYER_POLYGONE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "FIELD_PRECISION": 5.0, 
+                        "FIELD_LENGTH": 15.0, 
+                        "FORMULA": {
+                            "values": {
+                                "name": "STRING_FORMULE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "FIELD_NAME": {
+                            "values": {
+                                "name": "STRING_NOMDUCHAMP"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fieldcalculator", 
+                    "description": "Field calculator"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

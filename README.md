@@ -21,3 +21,12 @@ Pour charger un style dans QGIS :
     - [CLC DOM Niveau 1] (styles/clc/clc_dom_niveau1.qml)
     - [CLC DOM Niveau 2] (styles/clc/clc_dom_niveau2.qml)
     - [CLC DOM Niveau 3] (styles/clc/clc_dom_niveau3.qml)
+
+
+Modèles pour QGIS
+=====
+
+- [Indice d'élongation] (models/Indice_elongation.model)
+- [Indice de Gravelius] (models/Indice_gravellius.model)
+- [Indice de Miller] (models/Indice_miller.model)
+- [Indice de Morton] (models/Indice_morton.model)
