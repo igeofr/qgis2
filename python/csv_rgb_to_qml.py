@@ -21,11 +21,12 @@ tab = []
 for row in read_csv:
     
 ######## Permet de definir l'encodage du csv
-        unicode_row = [x.decode('latin1') for x in row]
+    unicode_row = [x.decode('latin1') for x in row]
         
 ######## Permet de definir les colonnes value, label, red, green, blue dans le csv
-        col_select =row[0], row[1],row[4], row[5], row[6]
-        tab.append(col_select)
+    col_select =row[0], row[1],row[4], row[5], row[6]
+    print col_select
+    tab.append(col_select)
         
 categories = []
 for value, label, red, green, blue in tab :
