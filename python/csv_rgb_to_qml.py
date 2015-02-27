@@ -4,6 +4,7 @@ import csv
 import codecs
 
 layer = iface.activeLayer()
+geomtype =  layer.dataProvider().geometryType()
 
 ######## Emplacement du csv
 InFlnm='CLC_DOM_nomenclature_03.csv'
@@ -40,7 +41,7 @@ for value, label, red, green, blue in tab :
 
 ######## Permet de creer le rendu et de l'affecter a la couche sur un champ defini
 expression = 'CODE_00' # Nom du champ
-if layer <> None:
+if layer <> None and  geomtype == 3 :
     renderer = QgsCategorizedSymbolRendererV2(expression, categories)
     layer.setRendererV2(renderer)
     

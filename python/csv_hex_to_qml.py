@@ -4,6 +4,7 @@ import csv
 import codecs
 
 layer = iface.activeLayer()
+geomtype =  layer.dataProvider().geometryType()
 
 ######## Emplacement du csv
 InFlnm='RPG_2012_ Codes_groupes_cultures_et_couleurs.csv'
@@ -31,14 +32,14 @@ for value, label, color_hex in tab :
     
 ######## Source : http://gis.stackexchange.com/questions/53121/how-change-border-line-to-no-pen-with-python-console
     symbol = QgsFillSymbolV2.createSimple( {'style':'solid','outline_style':'no','outline_width':'0','color':color_hex} )
-    symbol.setAlpha (0.5)
+    symbol.setAlpha (0.4)
     
     category = QgsRendererCategoryV2(value, symbol, label)
     categories.append(category)
 
 ######## Permet de creer le rendu et de l'affecter a la couche sur un champ defini
 expression = 'CULT_MAJ' # Nom du champ
-if layer <> None:
+if layer <> None and  geomtype == 3 :
     renderer = QgsCategorizedSymbolRendererV2(expression, categories)
     layer.setRendererV2(renderer)
     
@@ -51,3 +52,4 @@ else :
     iface.messageBar().pushMessage("Attention", "Selectionner une couche", level=QgsMessageBar.WARNING, duration=2)
 
 iface.mapCanvas().refresh() 
+
