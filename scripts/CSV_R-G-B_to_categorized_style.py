@@ -1,3 +1,6 @@
+##Style=group
+##CSV R-G-B to categorized style=name
+
 ##Couche_vectorielle=vector 
 ##Nom_du_champ=field Couche_vectorielle
 ##Fichier_CSV_avec_separateur_point_virgule= file 
@@ -48,6 +51,8 @@ if  fileExtension =='.csv':
     for value, label, red, green, blue in tab :
         #Concatener r,g,b
         color_rgb = red+','+green+','+blue
+        tab_list = value +' - '+label.decode(Encodage_du_CSV)+' - '+red+','+green+','+blue
+        progress.setText(u'Valeurs : %s' % tab_list)
         # Creation de la ligne
         if Outline == False :
            b_outline = 'no'
@@ -95,10 +100,11 @@ if  fileExtension =='.csv':
         layer.saveDefaultStyle() 
         # SLD
         layer.saveSldStyle(myDirectory+'/'+nomCouche+'.sld')
+        
+        progress.setText(u'Creation du fichier QML et SLD')
             
-    iface.messageBar().pushMessage("Notification :", "Execute avec succes", QgsMessageBar.INFO, duration=2)
-
+    iface.messageBar().pushMessage("Notification :", "C'est gagne, c'est gagne!", QgsMessageBar.INFO, duration=5)
     iface.mapCanvas().refresh() 
 
 else :
-    iface.messageBar().pushMessage("Ohoh :", "J'ai demande un csv!", QgsMessageBar.WARNING, duration=2)
+    iface.messageBar().pushMessage("Ohoh :", "J'ai demande un csv!", QgsMessageBar.WARNING, duration=15)
