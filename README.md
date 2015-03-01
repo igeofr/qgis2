@@ -41,7 +41,7 @@ En lien, avec une discussion sur [Georezo : "elongation, formes des polygones"] 
 Scripts pour le processing de QGIS
 =====
 
-[Créer des scripts et les exécuter depuis la boîte à outils] (http://docs.qgis.org/2.6/fr/docs/user_manual/processing/console.html)
+Documentation QGIS : [Créer des scripts et les exécuter depuis la boîte à outils] (http://docs.qgis.org/2.6/fr/docs/user_manual/processing/console.html)
 
 **Les scripts disponibles :**
 Voici deux scripts qui permettent de créer une symbologie catégorisée à partir d'un CSV contenant des informations de couleurs
