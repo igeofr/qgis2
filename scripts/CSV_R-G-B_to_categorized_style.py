@@ -41,7 +41,7 @@ if  fileExtension =='.csv':
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     #Creation d'un tableau qui va stocker les lignes et colonnes choisies du CSV  
     tab = []
-    if Colonne_de_la_value >= 0 and  Colonne_du_label>= 0 and Colonne_red >= 0 and Colonne_green >= 0 and Colonne_blue >= 0 and Transparence_du_style>0 and Transparence_du_style<1 and Line_Outline_width >0:
+    if Colonne_de_la_value >= 0 and  Colonne_du_label>= 0 and Colonne_red >= 0 and Colonne_green >= 0 and Colonne_blue >= 0 and Transparence_du_style>=0 and Transparence_du_style<=1 and Line_Outline_width >0:
         for row in read_csv:
             # Permet de definir les colonnes value, label, red, green, blue
             col_select =row[Colonne_de_la_value], row[Colonne_du_label],row[Colonne_red], row[Colonne_green], row[Colonne_blue]
