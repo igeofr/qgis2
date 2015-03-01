@@ -41,8 +41,13 @@ En lien, avec une discussion sur [Georezo : "elongation, formes des polygones"] 
 Scripts pour le processing de QGIS
 =====
 
-Voici deux scripts qui permettent de créer une symbologie très simple à partir d'un CSV contenant des informations de couleurs pour chaque catégorie définie
+[Créer des scripts et les exécuter depuis la boîte à outils] (http://docs.qgis.org/2.6/fr/docs/user_manual/processing/console.html)
 
-Testé sur QGIS 2.6 (Attention à la compatibilité)
-- [CSV R-G-B to categorized style] (scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
-- [CSV RGB or HEX to categorized style] (scripts/CSV_RGB_or_HEX_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir d'un champ R,G,B ou hexadécimal contenu dans un fichier CSV
+**Les scripts disponibles :**
+Voici deux scripts qui permettent de créer une symbologie catégorisée à partir d'un CSV contenant des informations de couleurs
+
+- Style :
+  Testé sur QGIS 2.6 (Attention à la compatibilité)
+
+  - [CSV R-G-B to categorized style] (scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
+  - [CSV RGB or HEX to categorized style] (scripts/CSV_RGB_or_HEX_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir d'un champ R,G,B ou hexadécimal contenu dans un fichier CSV
