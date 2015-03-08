@@ -51,5 +51,5 @@ Documentation QGIS : [Créer des scripts et les exécuter depuis la boîte à ou
 
 Voici deux scripts qui permettent de créer une symbologie catégorisée à partir d'un CSV contenant des informations de couleurs
 
-  - [CSV R-G-B to categorized style] (scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
-  - [CSV RGB or HEX to categorized style] (scripts/CSV_RGB_or_HEX_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir d'un champ R,G,B ou hexadécimal contenu dans un fichier CSV
+    - [CSV R-G-B to categorized style] (scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
+    - [CSV RGB or HEX to categorized style] (scripts/CSV_RGB_or_HEX_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir d'un champ R,G,B ou hexadécimal contenu dans un fichier CSV
