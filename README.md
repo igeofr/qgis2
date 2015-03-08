@@ -39,6 +39,10 @@ En lien, avec une discussion sur [Georezo : "elongation, formes des polygones"] 
 
 Scripts pour le processing de QGIS
 =====
+Pour ajouter un script dans QGIS :
+
+Ouvrir la boite à outils de traitement
+Aller dans Scripts/Outils/Ajouter un script depuis le fichier
 
 Documentation QGIS : [Créer des scripts et les exécuter depuis la boîte à outils] (http://docs.qgis.org/2.6/fr/docs/user_manual/processing/console.html)
 
