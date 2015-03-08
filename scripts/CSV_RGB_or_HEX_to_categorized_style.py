@@ -7,7 +7,7 @@
 ##Encodage_du_CSV=string latin1
 ##Colonne_de_la_value=number 0
 ##Colonne_du_label=number 1
-##Colonne_RGB_ou_HEX=number 2
+##Colonne_RGB_ou_HEX=number 3
 ##Transparence_du_style=number 0.50
 ##Outline=boolean false
 ##Line_Outline_width=number 0.26
@@ -32,7 +32,7 @@ nomCouche = str(os.path.splitext(os.path.split(filePth)[1])[0])
 fileName, fileExtension = os.path.splitext(Fichier_CSV_avec_separateur_point_virgule)
 if  fileExtension =='.csv':
     # Ouverture du csv
-    read_csv = csv.reader(codecs.open(Fichier_CSV_avec_separateur_point_virgule,"ru", Encodage_du_CSV),delimiter=';')
+    read_csv = csv.reader(open(Fichier_CSV_avec_separateur_point_virgule,"r"),delimiter=';')
     #Permet de passer l'entete du CSV
     read_csv.next()
     
@@ -43,13 +43,13 @@ if  fileExtension =='.csv':
 
         for row in read_csv:
                 # Permet de definir les colonnes value, label, red, green, blue
-                col_select =row[Colonne_de_la_value], row[Colonne_du_label],row[Colonne_RGB_ou_HEX]
+                col_select =row[Colonne_de_la_value], row[Colonne_du_label].decode(Encodage_du_CSV),row[Colonne_RGB_ou_HEX]
                 # Insere chaque ligne du CSV dans le tableau
                 tab.append(col_select)
     #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         categories = []
         for value, label, color in tab :
-            tab_list = value +' - '+label.decode(Encodage_du_CSV)+' - '+color
+            tab_list = value +' - '+label+' - '+color
             progress.setText(u'Valeurs : %s' % tab_list)
             # Creation de la ligne
             if Outline == False :
@@ -104,6 +104,7 @@ if  fileExtension =='.csv':
         iface.messageBar().pushMessage("Notification :", "C'est gagne, c'est gagne!", QgsMessageBar.INFO, duration=2)
 
         iface.mapCanvas().refresh() 
+        layer.triggerRepaint()
     else :
         iface.messageBar().pushMessage("Ohoh :", "Probleme de valeur", QgsMessageBar.WARNING, duration=15)
         
