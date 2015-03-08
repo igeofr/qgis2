@@ -28,8 +28,7 @@ Modèles pour QGIS
 Voici plusieurs modèles créés à partir du modeleur graphique de QGIS
 
 **Les modèles disponibles :**
-- Indice de forme :
-  Modèles créés pour QGIS 2.6 (Attention à la compatibilité)
+- Indice de forme : Modèles créés pour QGIS 2.6 (Attention à la compatibilité)
 
   - [Indice d'élongation] (models/Indice_elongation.model) : Rapport entre la longueur et largeur de l'entité.
   - [Indice de Gravelius] (models/Indice_gravellius.model) : Rapport du périmètre de l'entité, à celui du cercle de même superficie (Non borné, supérieur ou égale à 1).
@@ -46,10 +45,7 @@ Documentation QGIS : [Créer des scripts et les exécuter depuis la boîte à ou
 **Les scripts disponibles :**
 
 
-- Style :
-  Testé sur QGIS 2.6 (Attention à la compatibilité)
-
-Voici deux scripts qui permettent de créer une symbologie catégorisée à partir d'un CSV contenant des informations de couleurs
+- Style : Testé sur QGIS 2.6 (Attention à la compatibilité)
 
   - [CSV R-G-B to categorized style] (scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
   - [CSV RGB or HEX to categorized style] (scripts/CSV_RGB_or_HEX_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir d'un champ R,G,B ou hexadécimal contenu dans un fichier CSV
