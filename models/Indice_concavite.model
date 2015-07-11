@@ -63,6 +63,7 @@
                     "name": "QGISDELETECOLUMN_5", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 652.9975036465419, 
@@ -70,7 +71,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "COLUMN": "area", 
@@ -84,7 +84,7 @@
                     }, 
                     "active": true, 
                     "consoleName": "qgis:deletecolumn", 
-                    "description": "Suppression de area"
+                    "description": "Delete column - area"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -98,8 +98,8 @@
                                 "description": "Fichier en sortie", 
                                 "pos": {
                                     "values": {
-                                        "y": 779.3792893608277, 
-                                        "x": 397.9213198263889
+                                        "y": 766.407503646542, 
+                                        "x": 404.39024839781746
                                     }, 
                                     "class": "point"
                                 }
@@ -107,6 +107,7 @@
                             "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
                         }
                     }, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 714.407503646542, 
@@ -114,7 +115,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "COLUMN": "perim", 
@@ -128,7 +128,7 @@
                     }, 
                     "active": true, 
                     "consoleName": "qgis:deletecolumn", 
-                    "description": "Suppression de perim"
+                    "description": "Delete column - perim"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -137,6 +137,7 @@
                     "name": "QGISFIELDCALCULATOR_1", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 202.99047052154194, 
@@ -144,7 +145,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "FIELD_TYPE": 0, 
@@ -163,7 +163,7 @@
                     }, 
                     "active": true, 
                     "consoleName": "qgis:fieldcalculator", 
-                    "description": "P\u00e9rim\u00e8tre de l'entit\u00e9"
+                    "description": "Field calculator - P\u00e9rim\u00e8tre de l'entit\u00e9"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -172,6 +172,7 @@
                     "name": "QGISFIELDCALCULATOR_2", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 134.1225036465419, 
@@ -179,7 +180,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "FIELD_TYPE": 2, 
@@ -193,11 +193,11 @@
                         "FIELD_PRECISION": 0.0, 
                         "FIELD_LENGTH": 50.0, 
                         "FORMULA": "$uuid", 
-                        "FIELD_NAME": "UID"
+                        "FIELD_NAME": "UUID"
                     }, 
                     "active": true, 
                     "consoleName": "qgis:fieldcalculator", 
-                    "description": "Field calculator"
+                    "description": "Field calculator - UUID"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -206,6 +206,7 @@
                     "name": "QGISFIELDCALCULATOR_3", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 393.1225036465419, 
@@ -213,7 +214,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "FIELD_TYPE": 0, 
@@ -237,7 +237,7 @@
                     }, 
                     "active": true, 
                     "consoleName": "qgis:fieldcalculator", 
-                    "description": "Calcul de l'indice"
+                    "description": "Field Calculator - Indice de Concavit\u00e9"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -246,6 +246,7 @@
                     "name": "QGISDELETECOLUMN_1", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 460.12250364654193, 
@@ -253,10 +254,9 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
-                        "COLUMN": "UID", 
+                        "COLUMN": "UUID", 
                         "INPUT": {
                             "values": {
                                 "alg": "QGISFIELDCALCULATOR_3", 
@@ -267,7 +267,7 @@
                     }, 
                     "active": true, 
                     "consoleName": "qgis:deletecolumn", 
-                    "description": "Suppression de UID"
+                    "description": "Delete column - UUID"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -276,6 +276,7 @@
                     "name": "QGISDELETECOLUMN_2", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 530.1225036465419, 
@@ -283,7 +284,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "COLUMN": "id_2", 
@@ -297,7 +297,7 @@
                     }, 
                     "active": true, 
                     "consoleName": "qgis:deletecolumn", 
-                    "description": "Suppression de id_2"
+                    "description": "Delete column - id_2"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -306,6 +306,7 @@
                     "name": "QGISDELETECOLUMN_3", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 591.1225036465419, 
@@ -313,7 +314,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "COLUMN": "value", 
@@ -327,7 +327,7 @@
                     }, 
                     "active": true, 
                     "consoleName": "qgis:deletecolumn", 
-                    "description": "Suppression de value"
+                    "description": "Delete column - value"
                 }, 
                 "class": "processing.modeler.ModelerAlgorithm.Algorithm"
             }, 
@@ -336,6 +336,7 @@
                     "name": "QGISJOINATTRIBUTESTABLE_1", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 317.1225036465419, 
@@ -343,7 +344,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "INPUT_LAYER_2": {
@@ -353,7 +353,7 @@
                             }, 
                             "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
                         }, 
-                        "TABLE_FIELD": "UID", 
+                        "TABLE_FIELD": "UUID", 
                         "TABLE_FIELD_2": "value", 
                         "INPUT_LAYER": {
                             "values": {
@@ -374,6 +374,7 @@
                     "name": "QGISCONVEXHULL_1", 
                     "paramsFolded": true, 
                     "outputs": {}, 
+                    "outputsFolded": true, 
                     "pos": {
                         "values": {
                             "y": 266.09297052154193, 
@@ -381,7 +382,6 @@
                         }, 
                         "class": "point"
                     }, 
-                    "outputsFolded": true, 
                     "dependencies": [], 
                     "params": {
                         "INPUT": {
@@ -392,7 +392,7 @@
                             "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
                         }, 
                         "METHOD": 1, 
-                        "FIELD": "UID"
+                        "FIELD": "UUID"
                     }, 
                     "active": true, 
                     "consoleName": "qgis:convexhull", 
