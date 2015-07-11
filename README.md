@@ -35,7 +35,8 @@ Voici plusieurs modèles créés à partir du modeleur graphique de QGIS
   - [Indice de Miller] (models/Indice_miller.model) : Rapport de la superficie d'une entité, à celle d'un cercle de même périmètre (Vaut 1 si le polygone est un cercle, 0 s'il est de surface nulle).
   - Indice de Morton : Rapport de la superficie d'une entité, à celle d'un cercle de même périmètre (Vaut 1 si le polygone est un cercle, 0 s'il est de surface nulle).
   - [Indice de Solidité] (models/Indice_solidite.model): Rapport de la superficie d'une entité, à celle de son enveloppe convexe. (Vaut 1 pour un objet convexe, nettement < 1 si fortes concavités(forme complexe))
-  - [Indice de Concavité] (models/Indice_concavite.model): Rapport du périmètre de l?entité, à celui de son enveloppe convexe. (Vaut 1 pour un objet convexe ou > 1 si fortes concavités (forme complexe))
+  - [Indice de Concavité] (models/Indice_concavite.model): Rapport du périmètre de l'entité, à celui de son enveloppe convexe. (Vaut 1 pour un objet convexe ou > 1 si fortes concavités (forme complexe))
+
 En lien, avec une discussion sur [Georezo : "elongation, formes des polygones"] (http://georezo.net/forum/viewtopic.php?pid=143436#p143436)
 
 Scripts pour le processing de QGIS
