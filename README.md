@@ -57,7 +57,7 @@ Documentation QGIS : [Créer des scripts et les exécuter depuis la boîte à ou
 
 **Flux WMS**
 
-Vous trouverez [ici](QGIS_WMS.xml) une liste de flux WMS pour QGIS. N'hésitez pas à compléter cette liste.
+Vous trouverez [ici](flux/QGIS_WMS.xml) une liste de flux WMS pour QGIS. N'hésitez pas à compléter cette liste.
 
 Pour ajouter des flux dans QGIS depuis un fichier xml :
 
