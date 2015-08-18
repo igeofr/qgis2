@@ -166,7 +166,7 @@
 
     <!-- CARTORISQUE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartorisque.prim.net/wms/france?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTORISQUE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartorisque.prim.net/wms/1?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTORISQUE_1"/>
+
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>
