@@ -46,9 +46,9 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://gesteau.oieau.fr/service" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEST_EAU"/>
 
     <!-- SANDRE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/ouvrage" invertAxisOrientation="false" ignoreAxisOrientation="false" name="SANDRE_OUVRAGES_LIES_A_L_EAU"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/stations" invertAxisOrientation="false" ignoreAxisOrientation="false" name="SANDRE_STATIONS_DE_MESURE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/zonage" invertAxisOrientation="false" ignoreAxisOrientation="false" name="SANDRE_ZONAGE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/ouvrage" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_SANDRE_OUVRAGES_LIES_A_L_EAU"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/stations" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_SANDRE_STATIONS_DE_MESURE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/zonage" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_SANDRE_ZONAGE"/>
 
     <!-- IFREMER -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms1" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_EXPLOITATION_DE_LA_MER"/>
@@ -66,6 +66,6 @@
 
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="SIGLOIRE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>
 
 </qgsWMSConnections>
