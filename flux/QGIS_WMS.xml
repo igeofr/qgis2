@@ -131,6 +131,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/cadastre/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_CADASTRE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/photo/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_PHOTO"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/draaf/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_DRAAF"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/bretagneenvironnement/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GIP_BRETAGNE_ENVIRONNEMENT"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ows.region-bretagne.fr/geoserver/edit_rb/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_SIGN_ADRESSE"/>
 
     <!-- GEOLIMOUSIN -->
@@ -173,6 +174,10 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/5/Carte_Alsace" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_ALSACE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ogc.geo-ide.developpement-durable.gouv.fr/cartes/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LANGUEDOC_ROUSSILLON"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/17/serveurWMS?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_HAUTE_NORMANDIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.application.developpement-durable.gouv.fr/WFS/10/Nature_Paysage" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE"/>
+
+    <!-- AIR BREIZH -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://sig.airbreizh.asso.fr/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_AIR_BREIZH"/>
 
     <!-- ///////////////////// FRANCE ///////////////////// -->
     <!-- GEOLITTORAL -->
