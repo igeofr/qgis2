@@ -114,6 +114,9 @@
     <!-- MYPIGEO -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.mipygeo.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_MYPIGEO"/>
 
+    <!-- GEOBOURGOGNE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://datacarto.geobourgogne.fr/WMS/wms.php?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBOURGOGNE"/>
+
     <!-- GEOBRETAGNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_ALL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/osm/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_OSM"/>
