@@ -107,9 +107,15 @@
 
     <!-- ///////////////////// REGION ///////////////////// -->
     <!-- CRAIG -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://tiles.craig.fr/ortho/service?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_ORTHO"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://tiles.craig.fr/ortho/service?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_ORTHO_TUILE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.craig.fr/ortho" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_ORTHO"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.craig.fr/mnt" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_MNT"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://tiles.craig.fr/ign/service" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_IGN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://tiles.craig.fr/ign/service?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_IGN_TUILE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.craig.fr/ign" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_IGN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.craig.fr/bdortho" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_BDORTHO"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.craig.fr/rge" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_RGE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.craig.fr/wxs/public/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_PUBLIC"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.craig.fr/wxs/membres/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_MEMBRES"/>
 
     <!-- MYPIGEO -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.mipygeo.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_MYPIGEO"/>
@@ -147,12 +153,21 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/geopicardie/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept02/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_02_AISNE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept60/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_60_OISE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/reg22/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_REGION"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/reg22/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_DONNEES_REGIONALES"/>
 
     <!-- PPIGE_NPDC -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ppige-npdc.fr/viewer/?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE_NPDC"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ppige-npdc.fr/cgi-bin/mapserv?map=/var/www/mapcache/map/ortho2013.map" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE_NPDC_ORTHO13"/>
-    
+
+    <!-- CIGALE_ALSACE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/CD67/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_DONNEES_67_BAS_RHIN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/CRA/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_DONNEES_REGIONALES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/IGN/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_IGN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/cigal/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_REFERENTIELS"/>
+
+    <!-- DREAL -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/5/Carte_Alsace" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_ALSACE"/>
+
     <!-- ///////////////////// FRANCE ///////////////////// -->
     <!-- GEOLITTORAL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL"/>
