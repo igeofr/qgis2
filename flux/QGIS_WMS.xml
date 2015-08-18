@@ -106,6 +106,9 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.craig.fr/mnt" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_MNT"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://tiles.craig.fr/ign/service" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_IGN"/>
 
+    <!-- MYPIGEO -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.mipygeo.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_MYPIGEO"/>
+
     <!-- GEOBRETAGNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_ALL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/osm/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_OSM"/>
