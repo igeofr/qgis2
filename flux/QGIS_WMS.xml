@@ -214,6 +214,13 @@
     <!-- CARTORISQUE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartorisque.prim.net/wms/france?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTORISQUE"/>
 
+    <!-- ADES -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ADES"/>
+
+    <!-- ONF -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_Forets" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_FORETS"/>
+
+
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>
