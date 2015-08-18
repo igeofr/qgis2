@@ -137,6 +137,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geolimousin.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOLIMOUSIN"/>
 
     <!-- PIGMA -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.pigma.org/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PIGMA_ALL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.pigma.org/geoserver/cg47/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PIGMA_CG47"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.pigma.org/geoserver/drac/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PIGMA_DRAC"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.pigma.org/geoserver/erdf/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PIGMA_ERDF"/>
@@ -158,6 +159,9 @@
     <!-- PPIGE_NPDC -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ppige-npdc.fr/viewer/?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE_NPDC"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ppige-npdc.fr/cgi-bin/mapserv?map=/var/www/mapcache/map/ortho2013.map" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE_NPDC_ORTHO13"/>
+
+    <!-- GEORHONESALPES -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.georhonealpes.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEORHONEALPES"/>
 
     <!-- CIGALE_ALSACE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/CD67/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_DONNEES_67_BAS_RHIN"/>
