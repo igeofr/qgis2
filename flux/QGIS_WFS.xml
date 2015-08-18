@@ -1,19 +1,28 @@
 <!DOCTYPE connections>
 <qgsWFSConnections version="1.0">
+    <wfs password="" referer="" username="" url="http://geo.somme.fr/arcgis/services/SIG_CG_SOMME/MapServer/WFSServer" name="DEPARTEMENT_80_SOMME"/>
+    <wfs password="" referer="" username="" url="http://adour-garonne.eaufrance.fr/servicesOGC?" name="DIVERS_ADOUR_GARONNE"/>
+    <wfs password="" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapservwfs?" name="DIVERS_SIGLOIRE"/>
+    <wfs password="" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wfs" name="FRANCE_ADES"/>
     <wfs password="" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
+    <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/geologie" name="FRANCE_BRGM_GEOLOGIE_HYDROGEOLOGIE_GRAVIMETRIE"/>
+    <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/odmgm" name="FRANCE_BRGM_OBSERVATOIRE_DES_MATERIAUX_GRANULATS_MARINS"/>
+    <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/risques" name="FRANCE_BRGM_RISQUES_NATURELS_ET_INDUSTRIELS"/>
     <wfs password="" referer="" username="" url="http://cartographie.aires-marines.fr/wms" name="FRANCE_CARTOMER"/>
+    <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/france?" name="FRANCE_CARTORISQUE"/>
     <wfs password="" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" name="FRANCE_GEOLITTORAL"/>
     <wfs password="" referer="" username="" url="http://gesteau.eaufrance.fr/service?VERSION=1.1.0" name="FRANCE_GEST_EAU"/>
     <wfs password="" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" name="FRANCE_GISSOL"/>
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/biologie" name="FRANCE_IFREMER_BIOLOGIE"/>
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/granulats_marins" name="FRANCE_IFREMER_GRANULATS_MARINS"/>
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/surveillance_littorale" name="FRANCE_IFREMER_SURVEILLANCE_LITTORALE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_Forets" name="FRANCE_ONF_FORETS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_RB_Metro?" name="FRANCE_ONF_RESERVES_BIOLOGIQUES"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/mdo_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_MASSES_D_EAU"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/eth_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_REFERENTIEL_HYDRO"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/stq_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_STATIONS"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/zon_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_ZONAGES"/>
     <wfs password="" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wfs" name="FRANCE_SHOM"/>
-    <wfs password="" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapservwfs?" name="REGION GEO_CENTRE"/>
     <wfs password="" referer="" username="" url="https://www.cigalsace.org/geoserver/cigal/ows" name="REGION_CIGAL"/>
     <wfs password="" referer="" username="" url="http://wfs.craig.fr/ign" name="REGION_CRAIG_IGN"/>
     <wfs password="" referer="" username="" url="http://ids.craig.fr/wxs/membres/wfs" name="REGION_CRAIG_MEMBRES"/>
@@ -25,5 +34,12 @@
     <wfs password="" referer="" username="" url="http://geobretagne.fr/geoserver/dreal_b/wms?" name="REGION_GEOBRETAGNE_DREAL"/>
     <wfs password="" referer="" username="" url="http://carto.geonormandie.fr/cgi-bin/mapservwfs?" name="REGION_GEONORMANDIE"/>
     <wfs password="" referer="" username="" url="http://carto.geopal.org/cgi-bin/mapservwfs?" name="REGION_GEOPAL"/>
+    <wfs password="" referer="" username="" url="http://www.geopicardie.fr/geoserver/geopicardie/ows" name="REGION_GEOPICARDIE"/>
+    <wfs password="" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept02/ows" name="REGION_GEOPICARDIE_02_AISNE"/>
+    <wfs password="" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept60/ows" name="REGION_GEOPICARDIE_60_OISE"/>
+    <wfs password="" referer="" username="" url="http://carto.georhonealpes.fr/cgi-bin/mapservwfs?" name="REGION_GEORHONEALPES"/>
+    <wfs password="" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapservwfs?" name="REGION_GEO_CENTRE"/>
     <wfs password="" referer="" username="" url="http://carto.mipygeo.fr/cgi-bin/mapservwfs" name="REGION_MIPYGEO"/>
+    <wfs password="" referer="" username="" url="http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?VERSION=1.1.0" name="REGION_PEGASE"/>
+    <wfs password="" referer="" username="" url="http://ids.pigma.org/geoserver/wfs" name="REGION_PIGMA"/>
 </qgsWFSConnections>

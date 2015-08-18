@@ -6,6 +6,8 @@
     <!-- 44 - LOIRE ATLANTIQUE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.vuduciel.loire-atlantique.fr/geoserver/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_44_LOIRE_ATLANTIQUE_VUE_DU_CIEL"/>
 
+    <!-- 80 - SOMME -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.somme.fr/arcgis/services/SIG_CG_SOMME/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_80_SOMME"/>
 
     <!-- CARTORISQUE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartorisque.prim.net/wms/01?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_01_CARTORISQUE"/>
@@ -155,6 +157,12 @@
     <!-- GEO_CENTRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEO_CENTRE"/>
 
+    <!-- PEGASE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url=" http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PEGASE"/>
+
+    <!-- SIGORE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.observatoire-environnement.org/wms_sigore" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIGORE"/>
+
     <!-- GEOPICARDIE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/geopicardie/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept02/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_02_AISNE"/>
@@ -241,6 +249,7 @@
 
     <!-- ONF -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_Forets" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_FORETS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_RB_Metro?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_RESERVES_BIOLOGIQUES"/>
 
     <!-- GISSOL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
