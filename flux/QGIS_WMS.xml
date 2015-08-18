@@ -171,6 +171,8 @@
 
     <!-- DREAL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/5/Carte_Alsace" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_ALSACE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ogc.geo-ide.developpement-durable.gouv.fr/cartes/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LANGUEDOC_ROUSSILLON"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/17/serveurWMS?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_HAUTE_NORMANDIE"/>
 
     <!-- ///////////////////// FRANCE ///////////////////// -->
     <!-- GEOLITTORAL -->
@@ -192,6 +194,9 @@
 
     <!-- IFREMER -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms1" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_EXPLOITATION_DE_LA_MER"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/oceanographie_physique" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_OCEANOGRAPHIE_PHYSIQUE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/biologie" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_BIOLOGIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/geosciences" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_GEOSCIENCES"/>
 
     <!-- BRGM -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geoservices.brgm.fr/geologie" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_BRGM_GEOLOGIE_HYDROGEOLOGIE_GRAVIMETRIE"/>
