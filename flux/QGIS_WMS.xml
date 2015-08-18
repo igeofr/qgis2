@@ -182,6 +182,9 @@
     <!-- ///////////////////// FRANCE ///////////////////// -->
     <!-- GEOLITTORAL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_TUILE"/>
+
+
 
     <!-- CADASTRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://inspire.cadastre.gouv.fr/scpc/CODE_INSEE.wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CADASTRE"/>
@@ -202,6 +205,16 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/oceanographie_physique" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_OCEANOGRAPHIE_PHYSIQUE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/biologie" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_BIOLOGIE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/geosciences" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_GEOSCIENCES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/surveillance_littorale" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_SURVEILLANCE_LITTORALE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/photos_anciennes" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_PHOTOS_ANCIENNES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/granulats_marins" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_GRANULATS_MARINS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/nc" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_NOUVELLE_CALEDONIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/observatoire_pelagis" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_OBSERVATOIRE_PELAGIS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms_mimel" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_MIMEL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/ogive_agil" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_OGIVE_AGIL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms_charm" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_CHARM2"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms_charm3" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_CHARM3"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ifremer.fr/services/wms/euroshell" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IFREMER_EUROSHELL"/>
 
     <!-- BRGM -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geoservices.brgm.fr/geologie" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_BRGM_GEOLOGIE_HYDROGEOLOGIE_GRAVIMETRIE"/>
@@ -210,15 +223,25 @@
 
     <!-- SHOM -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wms/r" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_SHOM_INSPIRE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_SHOM_INSPIRE_TUILE"/>
+
+    <!-- ATLASANTE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapserv?SERVICE=WMS&REQUEST=GetCapabilities" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ATLASANTE"/>
 
     <!-- CARTORISQUE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartorisque.prim.net/wms/france?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTORISQUE"/>
+
+    <!-- CARTOMER -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartographie.aires-marines.fr/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTOMER"/>
 
     <!-- ADES -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ADES"/>
 
     <!-- ONF -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_Forets" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_FORETS"/>
+
+    <!-- GISSOL -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
 
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->

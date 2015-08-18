@@ -1,0 +1,11 @@
+<!DOCTYPE connections>
+<qgsWFSConnections version="1.0">
+    <wfs password="" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
+    <wfs password="" referer="" username="" url="http://cartographie.aires-marines.fr/wms" name="FRANCE_CARTOMER"/>
+    <wfs password="" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" name="FRANCE_GEOLITTORAL"/>
+    <wfs password="" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" name="FRANCE_GISSOL"/>
+    <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/biologie" name="FRANCE_IFREMER_BIOLOGIE"/>
+    <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/granulats_marins" name="FRANCE_IFREMER_GRANULATS_MARINS"/>
+    <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/surveillance_littorale" name="FRANCE_IFREMER_SURVEILLANCE_LITTORALE"/>
+    <wfs password="" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wfs" name="FRANCE_SHOM"/>
+</qgsWFSConnections>
