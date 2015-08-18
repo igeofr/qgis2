@@ -1,5 +1,4 @@
-Fichiers de style pour QGIS
-=====
+# Fichiers de style pour QGIS
 
 Pour charger un style dans QGIS :
 
@@ -22,8 +21,7 @@ Pour charger un style dans QGIS :
     - [CLC DOM Niveau 2] (styles/clc/clc_dom_niveau2.qml)
     - [CLC DOM Niveau 3] (styles/clc/clc_dom_niveau3.qml)
 
-Modèles pour QGIS
-=====
+# Modèles pour QGIS
 
 Voici plusieurs modèles créés à partir du modeleur graphique de QGIS
 
@@ -39,8 +37,8 @@ Voici plusieurs modèles créés à partir du modeleur graphique de QGIS
 
 En lien, avec une discussion sur [Georezo : "elongation, formes des polygones"] (http://georezo.net/forum/viewtopic.php?pid=143436#p143436)
 
-Scripts pour le processing de QGIS
-=====
+#Scripts pour le processing de QGIS
+
 Pour ajouter un script dans QGIS :
 
 1. Ouvrir la boite à outils de traitement
@@ -50,8 +48,20 @@ Documentation QGIS : [Créer des scripts et les exécuter depuis la boîte à ou
 
 **Les scripts disponibles :**
 
-
 - Style : Testé sur QGIS 2.6 (Attention à la compatibilité)
 
   - [CSV R-G-B to categorized style] (scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
   - [CSV RGB or HEX to categorized style] (scripts/CSV_RGB_or_HEX_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir d'un champ R,G,B ou hexadécimal contenu dans un fichier CSV
+
+# Flux
+
+**Flux WMS**
+
+Vous trouverez [ici](QGIS_WMS.xml) une liste de flux WMS pour QGIS. N'hésitez pas à compléter cette liste.
+
+Pour ajouter des flux dans QGIS depuis un fichier xml :
+
+  1. Menu "Couche" / Ajouter une couche / Ajouter une couche WMS
+  2. Cliquer sur charger et sélectionner le xml
+  3. Sélectionner les flux à importer
+  4. Importer
