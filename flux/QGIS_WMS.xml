@@ -120,8 +120,12 @@
     <!-- MYPIGEO -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.mipygeo.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_MYPIGEO"/>
 
+    <!-- GEONORMANDIE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geonormandie.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEONORMANDIE"/>
+
     <!-- GEOBOURGOGNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://datacarto.geobourgogne.fr/WMS/wms.php?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBOURGOGNE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geobourgogne.fr/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBOURGOGNE_TUILE"/>
 
     <!-- GEOBRETAGNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE"/>
@@ -148,8 +152,8 @@
     <!-- GEOPAL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geopal.org/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPAL"/>
 
-    <!-- GEOCENTRE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOCENTRE"/>
+    <!-- GEO_CENTRE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEO_CENTRE"/>
 
     <!-- GEOPICARDIE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/geopicardie/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE"/>
@@ -183,8 +187,6 @@
     <!-- GEOLITTORAL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_TUILE"/>
-
-
 
     <!-- CADASTRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://inspire.cadastre.gouv.fr/scpc/CODE_INSEE.wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CADASTRE"/>
