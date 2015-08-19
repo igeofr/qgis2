@@ -274,6 +274,10 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_Forets" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_FORETS"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_RB_Metro?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_RESERVES_BIOLOGIQUES"/>
 
+
+    <!-- CLC -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CLC"/>
+
     <!-- GISSOL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
 

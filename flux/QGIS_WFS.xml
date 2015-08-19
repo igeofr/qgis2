@@ -103,6 +103,7 @@
     <wfs password="" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapservwfs?" name="DIVERS_SIGLOIRE"/>
     <wfs password="" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wfs" name="FRANCE_ADES"/>
     <wfs password="" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
+    <wfs password="" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wfs" name="FRANCE_CLC"/>
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/geologie" name="FRANCE_BRGM_GEOLOGIE_HYDROGEOLOGIE_GRAVIMETRIE"/>
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/odmgm" name="FRANCE_BRGM_OBSERVATOIRE_DES_MATERIAUX_GRANULATS_MARINS"/>
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/risques" name="FRANCE_BRGM_RISQUES_NATURELS_ET_INDUSTRIELS"/>
