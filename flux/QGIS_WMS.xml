@@ -1,6 +1,29 @@
 <!DOCTYPE connections>
 <qgsWMSConnections version="1.0">
 
+    <!-- ///////////////////// VILLE, METROPOLE, AGGLOMERATION, PAYS ///////////////////// -->
+
+    <!-- RENNES METROPOLE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/rennesmetropole/ows?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="METROPOLE_RENNES"/>
+
+    <!-- PAYS DE BREST -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/Cadastre/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_CADASTRE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/Deplacement/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_DEPLACEMENT"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/Economie/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_ECONOMIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/ServicesEquipements_GrandPublic/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_EQUIPEMENTS_GRAND_PUBLIC"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/ServicesEquipements/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_EQUIPEMENTS_METIER"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/EspacePublic/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_ESPACE_PUBLIC"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PatrimoineNaturel/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PATRIMOINE_NATUREL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PatrimoineTourisme/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PATRIMOINE_TOURISME"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PhotoAerienne_1919/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PHOTO_AERIENNE_1919"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PhotoAerienne_1929/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PHOTO_AERIENNE_1929"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PhotoAerienne_2009_2010/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PHOTO_AERIENNE_2009_2010"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://georest.brest.fr/PhotoAerien​ne_2009_2010/MapServer/WMTS" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PHOTO_AERIENNE_2009_2010_TUILE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PhotoAerienne2012/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PHOTO_AERIENNE_2012"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://georest.brest.fr/PhotoAerienne2012/MapServer/WMTS" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PHOTO_AERIENNE_2012_TUILE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PlanVille/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PLAN_VILLE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/Urbanisme/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_URBANISME"/>
+
     <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
 
     <!-- 44 - LOIRE ATLANTIQUE -->
@@ -236,7 +259,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_SHOM_INSPIRE_TUILE"/>
 
     <!-- ATLASANTE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapserv?SERVICE=WMS&REQUEST=GetCapabilities" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ATLASANTE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ATLASANTE"/>
 
     <!-- CARTORISQUE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartorisque.prim.net/wms/france?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTORISQUE"/>
@@ -259,7 +282,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>
 
     <!-- ADOUR GARONNE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://adour-garonne.eaufrance.fr/servicesOGC?SERVICE=WMS&VERSION=1.3&REQUEST=GetCapabilities" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_ADOUR_GARONNE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://adour-garonne.eaufrance.fr/servicesOGC?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_ADOUR_GARONNE"/>
 
     <!-- ///////////////////// MONDE ///////////////////// -->
     <!-- NASA -->
