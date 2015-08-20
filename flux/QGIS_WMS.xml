@@ -3,6 +3,9 @@
 
     <!-- ///////////////////// VILLE, METROPOLE, AGGLOMERATION, PAYS ///////////////////// -->
 
+    <!-- Lyon SmartData -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://download.data.grandlyon.com/wms/grandlyon" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GRAND_LYON"/>
+    
     <!-- RENNES METROPOLE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/rennesmetropole/ows?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="METROPOLE_RENNES"/>
 

@@ -1,5 +1,8 @@
 <!DOCTYPE connections>
 <qgsWFSConnections version="1.0">
+    <!-- Grand Lyon WFS -->
+    <wfs password="" referer="" username="" url="https://download.data.grandlyon.com/wfs/grandlyon" name="GRAND_LYON"/>
+
 
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/01?" name="DEPARTEMENT_01_CARTORISQUE"/>
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/02?" name="DEPARTEMENT_02_CARTORISQUE"/>
