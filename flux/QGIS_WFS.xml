@@ -1,9 +1,17 @@
 <!DOCTYPE connections>
 <qgsWFSConnections version="1.0">
+
+    <!-- ///////////////////// VILLE, METROPOLE, AGGLOMERATION, PAYS ///////////////////// -->
+
     <!-- Grand Lyon WFS -->
     <wfs password="" referer="" username="" url="https://download.data.grandlyon.com/wfs/grandlyon" name="GRAND_LYON"/>
 
+    <!-- MONTPELLIER METROPOLE -->
+    <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsmmm? SERVICE=WFS&amp;VERSION=1.0.0&amp;REQUEST=GetCapabilities" name="METROPOLE_MONTPELLIER"/>
 
+    <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
+
+    <!-- CARTORISQUE -->
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/01?" name="DEPARTEMENT_01_CARTORISQUE"/>
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/02?" name="DEPARTEMENT_02_CARTORISQUE"/>
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/03?" name="DEPARTEMENT_03_CARTORISQUE"/>
@@ -101,9 +109,18 @@
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/94?" name="DEPARTEMENT_94_CARTORISQUE"/>
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/95?" name="DEPARTEMENT_95_CARTORISQUE"/>
 
+    <!-- 80 - SOMME -->
     <wfs password="" referer="" username="" url="http://geo.somme.fr/arcgis/services/SIG_CG_SOMME/MapServer/WFSServer" name="DEPARTEMENT_80_SOMME"/>
+
+    <!-- ///////////////////// DIVERS ///////////////////// -->
+    
+    <!-- SIGLOIRE -->
     <wfs password="" referer="" username="" url="http://adour-garonne.eaufrance.fr/servicesOGC?" name="DIVERS_ADOUR_GARONNE"/>
+
+    <!-- ADOUR GARONNE -->
     <wfs password="" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapservwfs?" name="DIVERS_SIGLOIRE"/>
+
+    <!-- ///////////////////// FRANCE ///////////////////// -->
     <wfs password="" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wfs" name="FRANCE_ADES"/>
     <wfs password="" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
     <wfs password="" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wfs" name="FRANCE_CLC"/>
@@ -125,6 +142,8 @@
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/stq_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_STATIONS"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/zon_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_ZONAGES"/>
     <wfs password="" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wfs" name="FRANCE_SHOM"/>
+
+    <!-- ///////////////////// REGION ///////////////////// -->
     <wfs password="" referer="" username="" url="https://www.cigalsace.org/geoserver/cigal/ows" name="REGION_CIGAL"/>
     <wfs password="" referer="" username="" url="http://wfs.craig.fr/ign" name="REGION_CRAIG_IGN"/>
     <wfs password="" referer="" username="" url="http://ids.craig.fr/wxs/membres/wfs" name="REGION_CRAIG_MEMBRES"/>
@@ -144,4 +163,8 @@
     <wfs password="" referer="" username="" url="http://carto.mipygeo.fr/cgi-bin/mapservwfs" name="REGION_MIPYGEO"/>
     <wfs password="" referer="" username="" url="http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?VERSION=1.1.0" name="REGION_PEGASE"/>
     <wfs password="" referer="" username="" url="http://ids.pigma.org/geoserver/wfs" name="REGION_PIGMA"/>
+    <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfspolitiqueville?" name="REGION_SIGLR_POLITIQUE_DE_LA_VILLE"/>
+    <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsbdsol?" name="REGION_SIGLR_BD_SOL"/>
+    <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsocsol1999?" name="REGION_SIGLR_OCS_1999"/>
+    <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsocsol2006?" name="REGION_SIGLR_OCS_2006"/>
 </qgsWFSConnections>

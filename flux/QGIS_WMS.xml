@@ -5,7 +5,7 @@
 
     <!-- Lyon SmartData -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://download.data.grandlyon.com/wms/grandlyon" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GRAND_LYON"/>
-    
+
     <!-- RENNES METROPOLE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/rennesmetropole/ows?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="METROPOLE_RENNES"/>
 
@@ -194,6 +194,13 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept02/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_02_AISNE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept60/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_60_OISE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/reg22/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE_DONNEES_REGIONALES"/>
+
+    <!-- SIGLR -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.siglr.org/wmspolitiqueville?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIGLR_POLITIQUE_DE_LA_VILLE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.siglr.org/wmsocsol1999?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIGLR_OCS_1999"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.siglr.org/wmsbdsol?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIGLR_BD_SOL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.siglr.org/wmsocsol2006?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIGLR_OCS_2006"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.siglr.org/wmsortho2012?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIGLR_ORTHO_2012"/>
 
     <!-- PPIGE_NPDC -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ppige-npdc.fr/viewer/?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE_NPDC"/>
