@@ -241,6 +241,10 @@
 
     <!-- DRIEE ILE DE FRANCE (à venir) -->
 
+    <!-- DREAL LR -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/19/dreal_lr_general?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LR_DONNEES_GENERALES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/19/dreal_lr_crues_rhone?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LR_CRUES_RHONE"/>
+
     <!-- DREAL LORRAINE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_SARR?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_SARR"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_NANC?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_NANC"/>

@@ -296,4 +296,9 @@
     <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/DREAL24?" name="REGION_DREAL_CENTRE_DREAL"/>
     <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/PHEC_CHER_NIEVRE?" name="REGION_DREAL_CENTRE_PHEC_CHER_NIEVRE"/>
 
+  <!-- DREAL LR -->
+  <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/19/dreal_lr_general?" name="REGION_DREAL_LR_DONNEES_GENERALES"/>
+  <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/19/dreal_lr_crues_rhone?" name="REGION_DREAL_LR_CRUES_RHONE"/>
+
+
 </qgsWFSConnections>
