@@ -2,15 +2,13 @@
 <qgsWFSConnections version="1.0">
 
     <!-- ///////////////////// VILLE, METROPOLE, AGGLOMERATION, PAYS ///////////////////// -->
-
-    <!-- Grand Lyon WFS -->
+    <!-- GRAND LYON -->
     <wfs password="" referer="" username="" url="https://download.data.grandlyon.com/wfs/grandlyon" name="GRAND_LYON"/>
 
     <!-- MONTPELLIER METROPOLE -->
     <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsmmm? SERVICE=WFS&amp;VERSION=1.0.0&amp;REQUEST=GetCapabilities" name="METROPOLE_MONTPELLIER"/>
 
     <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
-
     <!-- CARTORISQUE -->
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/01?" name="DEPARTEMENT_01_CARTORISQUE"/>
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/02?" name="DEPARTEMENT_02_CARTORISQUE"/>
@@ -109,11 +107,22 @@
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/94?" name="DEPARTEMENT_94_CARTORISQUE"/>
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/95?" name="DEPARTEMENT_95_CARTORISQUE"/>
 
+    <!-- 17 - CHARENTE MARITIME - GEOPLATEFORME -->
+    <wfs password="" referer="" username="" url="https://geo.geoplateforme17.fr/CG17/wfs" name="DEPARTEMENT_17_CHARENTE_MARITIME"/>
+
     <!-- 80 - SOMME -->
     <wfs password="" referer="" username="" url="http://geo.somme.fr/arcgis/services/SIG_CG_SOMME/MapServer/WFSServer" name="DEPARTEMENT_80_SOMME"/>
 
+    <!-- 85 - GEO VENDEE -->
+    <wfs password="" referer="" username="" url="http://carto.geovendee.fr/cgi-bin/mapservwfs?" name="DEPARTEMENT_85_VENDEE"/>
+
+    <!-- 94 - GEO VAL DE MARNE -->
+    <wfs password="" referer="" username="" url="http://geo.valdemarne.fr/viewer/" name="DEPARTEMENT_94_VAL_DE_MARNE"/>
+
+    <!-- MAYOTTE -->
+    <wfs password="" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapservwfs?" name="DEPARTEMENT_MAYOTTE"/>
+
     <!-- ///////////////////// DIVERS ///////////////////// -->
-    
     <!-- SIGLOIRE -->
     <wfs password="" referer="" username="" url="http://adour-garonne.eaufrance.fr/servicesOGC?" name="DIVERS_ADOUR_GARONNE"/>
 
@@ -121,50 +130,170 @@
     <wfs password="" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapservwfs?" name="DIVERS_SIGLOIRE"/>
 
     <!-- ///////////////////// FRANCE ///////////////////// -->
+    <!-- ADES -->
     <wfs password="" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wfs" name="FRANCE_ADES"/>
+
+    <!-- ATLASANTE -->
     <wfs password="" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
+
+    <!-- CLC -->
     <wfs password="" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wfs" name="FRANCE_CLC"/>
+
+    <!-- BRGM -->
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/geologie" name="FRANCE_BRGM_GEOLOGIE_HYDROGEOLOGIE_GRAVIMETRIE"/>
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/odmgm" name="FRANCE_BRGM_OBSERVATOIRE_DES_MATERIAUX_GRANULATS_MARINS"/>
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/risques" name="FRANCE_BRGM_RISQUES_NATURELS_ET_INDUSTRIELS"/>
+
+    <!-- CARTOMER -->
     <wfs password="" referer="" username="" url="http://cartographie.aires-marines.fr/wms" name="FRANCE_CARTOMER"/>
+
+    <!-- CARTORISQUE -->
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/france?" name="FRANCE_CARTORISQUE"/>
+
+    <!-- GEOLITTORAL -->
     <wfs password="" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" name="FRANCE_GEOLITTORAL"/>
+
+    <!-- GEST EAU -->
     <wfs password="" referer="" username="" url="http://gesteau.eaufrance.fr/service?VERSION=1.1.0" name="FRANCE_GEST_EAU"/>
+
+    <!-- GISSOL -->
     <wfs password="" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" name="FRANCE_GISSOL"/>
+
+    <!-- IFREMER -->
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/biologie" name="FRANCE_IFREMER_BIOLOGIE"/>
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/granulats_marins" name="FRANCE_IFREMER_GRANULATS_MARINS"/>
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/surveillance_littorale" name="FRANCE_IFREMER_SURVEILLANCE_LITTORALE"/>
-    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_Forets" name="FRANCE_ONF_FORETS"/>
-    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_RB_Metro?" name="FRANCE_ONF_RESERVES_BIOLOGIQUES"/>
+
+    <!-- ONF -->
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/105/ONF_Forets" name="FRANCE_ONF_FORETS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/105/ONF_RB_Metro?" name="FRANCE_ONF_RESERVES_BIOLOGIQUES"/>
+
+    <!-- SANDRE -->
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/mdo_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_MASSES_D_EAU"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/eth_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_REFERENTIEL_HYDRO"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/stq_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_STATIONS"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/zon_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_ZONAGES"/>
+
+    <!-- SHOM -->
     <wfs password="" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wfs" name="FRANCE_SHOM"/>
 
     <!-- ///////////////////// REGION ///////////////////// -->
+    <!-- CIGAL -->
     <wfs password="" referer="" username="" url="https://www.cigalsace.org/geoserver/cigal/ows" name="REGION_CIGAL"/>
+
+    <!-- CRAIG -->
     <wfs password="" referer="" username="" url="http://wfs.craig.fr/ign" name="REGION_CRAIG_IGN"/>
     <wfs password="" referer="" username="" url="http://ids.craig.fr/wxs/membres/wfs" name="REGION_CRAIG_MEMBRES"/>
     <wfs password="" referer="" username="" url="http://ids.craig.fr/wxs/public/wfs" name="REGION_CRAIG_PUBLIC"/>
     <wfs password="" referer="" username="" url="http://wfs.craig.fr/rge" name="REGION_CRAIG_RGE"/>
-    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/5/Carte_Alsace" name="REGION_DREAL_ALSACE"/>
+
+    <!-- GEOBOURGOGNE -->
     <wfs password="" referer="" username="" url="http://datacarto.geobourgogne.fr/WFS/wfs.php?" name="REGION_GEOBOURGOGNE"/>
+
+    <!-- GEOBRETAGNE -->
     <wfs password="" referer="" username="" url="http://ows.region-bretagne.fr/geoserver/rb/wfs?" name="REGION_GEOBRETAGNE"/>
-    <wfs password="" referer="" username="" url="http://geobretagne.fr/geoserver/dreal_b/wms?" name="REGION_GEOBRETAGNE_DREAL"/>
+
+    <!-- GEONORMANDIE -->
     <wfs password="" referer="" username="" url="http://carto.geonormandie.fr/cgi-bin/mapservwfs?" name="REGION_GEONORMANDIE"/>
+
+    <!-- GEOPAL -->
     <wfs password="" referer="" username="" url="http://carto.geopal.org/cgi-bin/mapservwfs?" name="REGION_GEOPAL"/>
+
+    <!-- GEOPICARDIE -->
     <wfs password="" referer="" username="" url="http://www.geopicardie.fr/geoserver/geopicardie/ows" name="REGION_GEOPICARDIE"/>
+
+    <!-- GEOPICARDIE -->
     <wfs password="" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept02/ows" name="REGION_GEOPICARDIE_02_AISNE"/>
     <wfs password="" referer="" username="" url="http://www.geopicardie.fr/geoserver/dept60/ows" name="REGION_GEOPICARDIE_60_OISE"/>
+
+    <!-- GEORHONEALPES -->
     <wfs password="" referer="" username="" url="http://carto.georhonealpes.fr/cgi-bin/mapservwfs?" name="REGION_GEORHONEALPES"/>
+
+    <!-- GEO CENTRE -->
     <wfs password="" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapservwfs?" name="REGION_GEO_CENTRE"/>
+
+    <!-- MIPYGEO -->
     <wfs password="" referer="" username="" url="http://carto.mipygeo.fr/cgi-bin/mapservwfs" name="REGION_MIPYGEO"/>
+
+    <!-- PEGASE -->
     <wfs password="" referer="" username="" url="http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?VERSION=1.1.0" name="REGION_PEGASE"/>
+
+    <!-- PIGMA -->
     <wfs password="" referer="" username="" url="http://ids.pigma.org/geoserver/wfs" name="REGION_PIGMA"/>
+
+    <!-- SIGLR -->
     <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfspolitiqueville?" name="REGION_SIGLR_POLITIQUE_DE_LA_VILLE"/>
     <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsbdsol?" name="REGION_SIGLR_BD_SOL"/>
     <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsocsol1999?" name="REGION_SIGLR_OCS_1999"/>
     <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsocsol2006?" name="REGION_SIGLR_OCS_2006"/>
+
+    <!-- DREAL LORRAINE -->
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_SARR?" name="REGION_DREAL_LORRAINE_DI_TRI_SARR"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_NANC?" name="REGION_DREAL_LORRAINE_DI_TRI_NANC"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_globale_lorraine?" name="REGION_DREAL_LORRAINE_CARTE_GLOBALE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_METZ?" name="REGION_DREAL_LORRAINE_DI_TRI_METZ"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_DIE?" name="REGION_DREAL_LORRAINE_DI_TRI_DIE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_n2000_grande_region?" name="REGION_DREAL_LORRAINE_N2000_GRANDE_REGION"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_LONG?" name="REGION_DREAL_LORRAINE_DI_TRI_LONG"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_VERD?" name="REGION_DREAL_LORRAINE_DI_TRI_VERD"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_SEDA?" name="REGION_DREAL_LORRAINE_DI_TRI_SEDA"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_EPIN?" name="REGION_DREAL_LORRAINE_DI_TRI_EPIN"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_PONT?" name="REGION_DREAL_LORRAINE_DI_TRI_PONT"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_DI_TRI_NEUF?" name="REGION_DREAL_LORRAINE_DI_TRI_NEUF"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/21/carte_zones_humides_lorraine?" name="REGION_DREAL_LORRAINE_ZONES_HUMIDES"/>
+
+      <!-- DREAL ALSACE -->
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/5/Carte_Alsace?" name="REGION_DREAL_ALSACE_CARTE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/5/Carte_Alsace_SRCE?" name="REGION_DREAL_ALSACE_SRCE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/5/carte_DI_MULHOUSE_APPROUVE?" name="REGION_DREAL_ALSACE_DI_MULHOUSE_APPROUVE?"/>
+
+    <!-- DREAL HAUTE NORMANDIE -->
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/carte_generale?" name="REGION_DREAL_HAUTE_NORMANDIE_CARTE_GENERALE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/ressources_granulats?" name="REGION_DREAL_HAUTE_NORMANDIE_RESSOURCES_GRANULATS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/MOS_2009_HN?" name="REGION_DREAL_HAUTE_NORMANDIE_MOS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/SCoT_HN?" name="REGION_DREAL_HAUTE_NORMANDIE_SCOT"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/site_ind_prod_eolien?" name="REGION_DREAL_HAUTE_NORMANDIE_EOLIEN"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/natureetpaysage?" name="REGION_DREAL_HAUTE_NORMANDIE_NATURE_ET_PAYSAGE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/TRI_Dieppe?" name="REGION_DREAL_HAUTE_NORMANDIE_TRI_DIEPPE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/infrastructures_transports?" name="REGION_DREAL_HAUTE_NORMANDIE_INFRASTRUCTURES_TRANSPORTS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/TRI_Evreux?" name="REGION_DREAL_HAUTE_NORMANDIE_TRI_EVREUX"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/TRI_Le_Havre?" name="REGION_DREAL_HAUTE_NORMANDIE_TRI_LE_HAVRE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/TRI_Rouen?" name="REGION_DREAL_HAUTE_NORMANDIE_TRI_ROUEN"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/DTA_3?" name="REGION_DREAL_HAUTE_NORMANDIE_DTA_ESTUAIRE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/SRCE_tvb?" name="REGION_DREAL_HAUTE_NORMANDIE_SRCE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/DTA?" name="REGION_DREAL_HAUTE_NORMANDIE_DTA"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/pollution_sol_2?" name="REGION_DREAL_HAUTE_NORMANDIE_POLLUTION_SOL"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/nature_bio_inv?" name="REGION_DREAL_HAUTE_NORMANDIE_NATURE_BIODIVERSITE_INVENTAIRE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/nature_bio_gest?" name="REGION_DREAL_HAUTE_NORMANDIE_NATURE_BIODIVERSITE_GESTION"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/risques_techno?" name="REGION_DREAL_HAUTE_NORMANDIE_RISQUES_TECHNO"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/17/risques_techno?" name="REGION_DREAL_HAUTE_NORMANDIE_RISQUES_TECHNO"/>
+
+    <!-- DREAL BRETAGNE -->
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/10/Natura_2000?" name="REGION_DREAL_BRETAGNE_NATURA_2000"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/10/Nature_Paysage?" name="REGION_DREAL_BRETAGNE_NATURE_PAYSAGE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/10/Risque?" name="REGION_DREAL_BRETAGNE_RISQUE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/10/L93_Protections?" name="REGION_DREAL_BRETAGNE_PROTECTIONS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/10/EAU?" name="REGION_DREAL_BRETAGNE_EAU"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/10/L93_Inventaires?" name="REGION_DREAL_BRETAGNE_INVENTAIRES"/>
+
+    <!-- DREAL PACA -->
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/25/environnement?" name="REGION_DREAL_PACA_ENVIRONNMENT_INDUSTRIE_RISQUES"/>
+
+    <!-- DREAL CENTRE -->
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/reperes_crue?" name="REGION_DREAL_CENTRE_REPERES_DE_CRUE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eau_bassin1?" name="REGION_DREAL_CENTRE_BASSIN_LOIRE_BRETAGNE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eau_bassin_L214?" name="REGION_DREAL_CENTRE_SDAGE_2009"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eolien?" name="REGION_DREAL_CENTRE_EOLIEN"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eau_bassin_sdpc?" name="REGION_DREAL_CENTRE_SDPC"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/rzp_bassin?" name="REGION_DREAL_CENTRE_RZP"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eau_bassin_reseau_dce?" name="REGION_DREAL_CENTRE_DCE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/blois?" name="REGION_DREAL_CENTRE_BLOIS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/orleans?" name="REGION_DREAL_CENTRE_ORLEANS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/tours?" name="REGION_DREAL_CENTRE_TOURS"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eau_bassin_connaissance?" name="REGION_DREAL_CENTRE_CONNAISSANCE_BASSIN"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eau_bassin_L214_consultation2?" name="REGION_DREAL_CENTRE_L214_CONSULTATION"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/eau_bassin_tri?" name="REGION_DREAL_CENTRE_EAU_BASSIN_TRI"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/DREAL24?" name="REGION_DREAL_CENTRE_DREAL"/>
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/11/PHEC_CHER_NIEVRE?" name="REGION_DREAL_CENTRE_PHEC_CHER_NIEVRE"/>
+
 </qgsWFSConnections>
