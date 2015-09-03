@@ -319,6 +319,9 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://sig.airbreizh.asso.fr/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_AIR_BREIZH"/>
 
     <!-- ///////////////////// FRANCE ///////////////////// -->
+    <!-- IGN -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wxs.ign.fr/inspire/r/wms?version=1.3.0" invertAxisOrientation="false" ignoreAxisOrientation="false" name="IGN INSPIRE"/>
+    
     <!-- GEOLITTORAL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_TUILE"/>
