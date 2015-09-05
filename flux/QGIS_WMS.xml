@@ -314,14 +314,18 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/DREAL24?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_DREAL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/PHEC_CHER_NIEVRE?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_PHEC_CHER_NIEVRE"/>
 
+    <!-- DREAL AQUITAINE -->
 
     <!-- AIR BREIZH -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://sig.airbreizh.asso.fr/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_AIR_BREIZH"/>
 
     <!-- ///////////////////// FRANCE ///////////////////// -->
     <!-- IGN -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wxs.ign.fr/inspire/r/wms?version=1.3.0" invertAxisOrientation="false" ignoreAxisOrientation="false" name="IGN INSPIRE"/>
-    
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wxs.ign.fr/inspire/r/wms?version=1.3.0" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_IGN_INSPIRE"/>
+
+    <!-- GEOFONCIER -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://api.geofoncier.fr/referentielsoge/ogc/wxs?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOFONCIER"/>
+
     <!-- GEOLITTORAL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_TUILE"/>
@@ -394,6 +398,10 @@
     <!-- ADOUR GARONNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://adour-garonne.eaufrance.fr/servicesOGC?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_ADOUR_GARONNE"/>
 
+    <!-- ///////////////////// ENTREPRISES ///////////////////// -->
+    <!-- SOGEFI -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.sogefi-web.com/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ENTREPRISES_SOGEFI"/>
+    
     <!-- ///////////////////// MONDE ///////////////////// -->
     <!-- NASA -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://neowms.sci.gsfc.nasa.gov/wms/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="MONDE_NASA"/>
