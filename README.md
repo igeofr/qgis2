@@ -66,7 +66,7 @@ Pour ajouter des flux dans QGIS depuis un fichier xml :
   3. Sélectionner les flux à importer
   4. Importer
 
-# Calculatrice de champs
+# Calculatrice
 
 **Expressions disponibles :**
 
