@@ -1,0 +1,16 @@
+replace(
+replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(
+replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace("NOM",
+'Á','A'),'À','A'),'Â','A'),'Ä','A'),'Å','A'),'Ã','A'),
+'É','E'),'È','E'),'Ê','E'),'Ë','E'),
+'Í','I'),'Ì','I'),'Î','I'),'Ï','I'),
+'Ñ','n'),
+'Ó','O'),'Ò','O'),'Ô','O'),'Ö','O'),'Õ','O'),'Ø','O'),
+'Ú','U'),'Ù','U'),'Û','U'),'Ü','U'),
+'Ý','Y'),'Ÿ','Y'),
+'Ž','Z')
