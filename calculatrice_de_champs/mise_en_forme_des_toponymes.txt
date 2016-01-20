@@ -1,0 +1,37 @@
+﻿replace(replace(replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(
+replace(replace(
+title(
+replace(replace("NOM",
+'-', ' - '),
+'''',''' ')),
+' Au ',' au '),
+' Aux ',' aux '),
+' À ',' à '),
+' Chez ',' chez '),
+' D''',' d'''),
+' De ',' de '),
+' Derrière ', ' derrière '),
+' Des ', ' des '),
+' Dessous ', ' dessous '),
+' Dessus ', ' dessus '),
+' Devant ', ' devant '),
+' Du ', ' du '),
+' En ', ' en '),
+' Et ', ' et '),
+' Ès ', ' ès '),
+' La ', ' la '),
+' Le ', ' le '),
+' Les ', ' les '),
+' Lès ', ' lès '),
+' L''', ' l'''),
+' Près ', ' près '),
+' Sur ', ' sur '),
+' Sous ', ' sous '),
+' Lez ', ' lez '),
+' - ', '-'),
+''' ', '''')
