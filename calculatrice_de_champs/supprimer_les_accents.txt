@@ -1,10 +1,10 @@
-replace( replace(
-replace( replace( replace( replace(
-replace( replace( replace( replace( replace( replace(
+replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(
 replace(
-replace( replace( replace(replace(
-replace( replace( replace(replace(
-replace( replace( replace( replace( replace("NOM",
+replace(replace(replace(replace(
+replace(replace(replace(replace(
+replace(replace(replace(replace(replace("NOM",
 'à','a'),'á','a'),'â','a'),'ä','å'),'ã','a'),
 'é','e'),'è','e'),'ê','e'),'ë','e'),
 'í','i'),'ì','i'),'î','i'),'ï','i'),
