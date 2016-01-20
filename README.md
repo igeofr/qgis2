@@ -70,5 +70,5 @@ Pour ajouter des flux dans QGIS depuis un fichier xml :
 
 **Expressions disponibles :**
 
-  - [Supprimer les accents d'un champs] (calculatrice_de_champs/supprimer_les_accents.txt)
-  - [Mise en forme des toponymes] (calculatrice_de_champs/mise_en_forme_des_toponymes.txt)
+  - [Supprimer les accents d'un champs] (expressions/supprimer_les_accents.txt)
+  - [Mise en forme des toponymes] (expressions/mise_en_forme_des_toponymes.txt)
