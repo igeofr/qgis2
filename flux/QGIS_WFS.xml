@@ -116,6 +116,10 @@
     <!-- 85 - GEO VENDEE -->
     <wfs password="" referer="" username="" url="http://carto.geovendee.fr/cgi-bin/mapservwfs?" name="DEPARTEMENT_85_VENDEE"/>
 
+    <!-- 93 - SEINE-SAINT-DENIS - GEOPORTAIL93.fr -->
+    <wfs password="" referer="" username="" url="http://geoportail93.fr/SERV/DATA/" name="DEPARTEMENT_SEINE_SAINT_DENIS"/>
+
+
     <!-- 94 - GEO VAL DE MARNE -->
     <wfs password="" referer="" username="" url="http://geo.valdemarne.fr/viewer/" name="DEPARTEMENT_94_VAL_DE_MARNE"/>
 
