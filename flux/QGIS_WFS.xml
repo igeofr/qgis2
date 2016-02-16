@@ -9,6 +9,16 @@
     <!-- MONTPELLIER METROPOLE -->
     <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfsmmm? SERVICE=WFS&amp;VERSION=1.0.0&amp;REQUEST=GetCapabilities" name="METROPOLE_MONTPELLIER"/>
 
+    <!-- ///////////////////// PNR ///////////////////// -->
+    <!-- PNR AVESNOIS -->
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/56/SIGAvesnois_Eau?" name="PNR_AVESNOIS_RESSOURCE_EN_EAU"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/56/SigAvesnois_Pollution?" name="PNR_AVESNOIS_POLLUTION"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/56/SIGAvesnois_Ress_Min?" name="PNR_AVESNOIS_RESSOURCES_MINERALES"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/56/SIGAvesnois_Geologie?" name="PNR_AVESNOIS_GEOLOGIE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/56/SIGAvesnois_Patrim?" name="PNR_AVESNOIS_PATRIMOINE_NATUREL"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/56/SigAvesnois_risques_naturels?" name="PNR_AVESNOIS_RISQUES_NATURELS"/>
+
+
     <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
     <!-- CARTORISQUE -->
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/01?" name="DEPARTEMENT_01_CARTORISQUE"/>
