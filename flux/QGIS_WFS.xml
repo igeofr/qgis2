@@ -155,6 +155,9 @@
     <!-- CARTORISQUE -->
     <wfs password="" referer="" username="" url="http://cartorisque.prim.net/wfs/france?" name="FRANCE_CARTORISQUE"/>
 
+    <!-- CADASTRE MINIER -->
+    <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/209/CADASTRE_MINIER_DGALN?" name="FRANCE_CADASTRE_MINIER"/>
+
     <!-- GEOLITTORAL -->
     <wfs password="" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" name="FRANCE_GEOLITTORAL"/>
 

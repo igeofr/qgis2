@@ -31,6 +31,17 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/PlanVille/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_PLAN_VILLE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/Urbanisme/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_URBANISME"/>
 
+    <!-- ///////////////////// PNR ///////////////////// -->
+    <!-- PNR AVESNOIS -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SIGAvesnois_Eau?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_RESSOURCE_EN_EAU"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SigAvesnois_Pollution?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_POLLUTION"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SIGAvesnois_Ress_Min?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_RESSOURCES_MINERALES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SIGAvesnois_Geologie?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_GEOLOGIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SIGAvesnois_Patrim?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_PATRIMOINE_NATUREL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SigAvesnois_risques_naturels?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_RISQUES_NATURELS"/>
+
+
+
     <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
     <!-- 17 - CHARENTE MARITIME - GEOPLATEFORME -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://geo.geoplateforme17.fr/CG17/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_17_CHARENTE_MARITIME"/>
@@ -382,6 +393,10 @@
 
     <!-- CARTOMER -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartographie.aires-marines.fr/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTOMER"/>
+
+    <!-- CADASTRE MINIER -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/209/CADASTRE_MINIER_DGALN?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CADASTRE_MINIER"/>
+
 
     <!-- ADES -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ADES"/>
