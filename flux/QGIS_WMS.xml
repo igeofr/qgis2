@@ -392,6 +392,10 @@
     <!-- GISSOL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
 
+    <!-- MNHN Zonages de protection -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/fxx_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
+
+    
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>
