@@ -45,6 +45,9 @@
     <!-- 85 - GEO VENDEE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geovendee.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_85_VENDEE"/>
 
+    <!-- 93 - SEINE-SAINT-DENIS - GEOPORTAIL93.fr -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geoportail93.fr/SERV/DATA/" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_93_SEINE_SAINT_DENIS"/>
+
     <!-- 94 - GEO VAL DE MARNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.valdemarne.fr/viewer/" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_94_VAL_DE_MARNE"/>
 
