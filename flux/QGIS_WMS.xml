@@ -10,8 +10,9 @@
     <!-- RENNES METROPOLE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/rennesmetropole/ows?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="METROPOLE_RENNES"/>
 
-
+    <!-- GRAND POITIERS -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://sig.grandpoitiers.fr/arcgis/services/Geoportail/WMS_Preview/MapServer/WmsServer?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GRAND_POITIERS"/>
+
     <!-- PAYS DE BREST -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/Cadastre/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_CADASTRE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.brest.fr/Deplacement/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PAYS_BREST_DEPLACEMENT"/>
@@ -396,9 +397,29 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
 
     <!-- MNHN Zonages de protection -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/fxx_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/fxx_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_METROPOLE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/reu_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_REUNION"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/guf_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_GUYANE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/spm_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_SAINT_PIERRE_ET_MIQUELON"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/glp_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_GUADELOUPE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/myt_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_MAYOTTE"/>
 
-    
+    <!-- MNHN Régions biogéographiques -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/fxx_ref?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_REGIONS_BIOGEOGRAPHIQUES_METROPOLE"/>
+
+    <!-- MNHN GRILLE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/fxx_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_METROPOLE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/mtq_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_MARTINIQUE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/glp_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_GUADELOUPE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/spm_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_PIERRE_ET_MIQUELON"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/reu_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_REUNION"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/myt_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_MAYOTTE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/maf_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_MARTIN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/taaf_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_TAAF_ILES_SUBANTARCTIQUES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/epa_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_TAAF_ILES_EPARSES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/blm_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_BARTHELEMY"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/guf_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_GUYANE"/>
+
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>
@@ -409,7 +430,7 @@
     <!-- ///////////////////// ENTREPRISES ///////////////////// -->
     <!-- SOGEFI -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.sogefi-web.com/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ENTREPRISES_SOGEFI"/>
-    
+
     <!-- ///////////////////// MONDE ///////////////////// -->
     <!-- NASA -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://neowms.sci.gsfc.nasa.gov/wms/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="MONDE_NASA"/>

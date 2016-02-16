@@ -164,6 +164,30 @@
     <!-- GISSOL -->
     <wfs password="" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" name="FRANCE_GISSOL"/>
 
+    <!-- MNHN Zonages de protection -->
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/fxx_inpn?" name="FRANCE_MNHN_ZONAGES_METROPOLE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/reu_inpn?" name="FRANCE_MNHN_ZONAGES_REUNION"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/guf_inpn?" name="FRANCE_MNHN_ZONAGES_GUYANE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/spm_inpn?" name="FRANCE_MNHN_ZONAGES_SAINT_PIERRE_ET_MIQUELON"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/glp_inpn?" name="FRANCE_MNHN_ZONAGES_GUADELOUPE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/myt_inpn?" name="FRANCE_MNHN_ZONAGES_MAYOTTE"/>
+
+    <!-- MNHN Régions biogéographiques -->
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/fxx_ref?" name="FRANCE_MNHN_REGIONS_BIOGEOGRAPHIQUES_METROPOLE"/>
+
+    <!-- MNHN GRILLE -->
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/fxx_grille?" name="FRANCE_MNHN_GRILLE_METROPOLE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/mtq_grille?" name="FRANCE_MNHN_GRILLE_MARTINIQUE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/glp_grille?" name="FRANCE_MNHN_GRILLE_GUADELOUPE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/spm_grille?" name="FRANCE_MNHN_GRILLE_SAINT_PIERRE_ET_MIQUELON"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/reu_grille?" name="FRANCE_MNHN_GRILLE_REUNION"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/myt_grille?" name="FRANCE_MNHN_GRILLE_MAYOTTE"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/maf_grille?" name="FRANCE_MNHN_GRILLE_SAINT_MARTIN"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/taaf_grille?" name="FRANCE_MNHN_GRILLE_TAAF_ILES_SUBANTARCTIQUES"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/epa_grille?" name="FRANCE_MNHN_GRILLE_TAAF_ILES_EPARSES"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/blm_grille?" name="FRANCE_MNHN_GRILLE_SAINT_BARTHELEMY"/>
+    <wfs password="" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/guf_grille?" name="FRANCE_MNHN_GRILLE_SAINT_GUYANE"/>
+
     <!-- IFREMER -->
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/biologie" name="FRANCE_IFREMER_BIOLOGIE"/>
     <wfs password="" referer="" username="" url="http://www.ifremer.fr/services/wfs/granulats_marins" name="FRANCE_IFREMER_GRANULATS_MARINS"/>
