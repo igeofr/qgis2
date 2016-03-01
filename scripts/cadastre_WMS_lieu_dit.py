@@ -2,8 +2,8 @@
 ##WMS - Lieu dit=name
 
 ##Couche_commune=vector 
-##Champs_code_INSEE=field Couche_commune
-##Champs_nom_de_commune=field Couche_commune
+##Champ_code_INSEE=field Couche_commune
+##Champ_nom_de_commune=field Couche_commune
 ##Code_EPSG=string 2154
 
 from qgis.core import *
@@ -20,7 +20,7 @@ if Code_EPSG == '2154' or Code_EPSG == '3942' or Code_EPSG == '3943' or Code_EPS
     
     for f in layer.getFeatures():
        
-        col_select =f[Champs_code_INSEE],f[Champs_nom_de_commune]
+        col_select =str(f[Champ_code_INSEE]),f[Champ_nom_de_commune]
         tab.append(col_select)
         
         #Permet la suppression des doublons
