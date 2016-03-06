@@ -44,6 +44,7 @@ if Nom_du_style_en_sortie <> "":
                 def handle_starttag(self, tag, attrs):
                     self.inLink = False
                     if tag == 'h4':
+                            self.countColors += 1
                             self.inLink = True
                             self.lasttag = tag
                 def handle_endtag(self, tag):
