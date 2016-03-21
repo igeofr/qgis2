@@ -28,7 +28,7 @@ if Code_EPSG == '2154' or Code_EPSG == '3942' or Code_EPSG == '3943' or Code_EPS
     for c_insee, n_couche in Lt  :
 
         #AMORCES_CAD,LIEUDIT,CP.CadastralParcel,SUBFISCAL,CLOTURE,DETAIL_TOPO,HYDRO,VOIE_COMMUNICATION,BU.Building,BORNE_REPERE
-        urlWithParams = "url=http://inspire.cadastre.gouv.fr/scpc/"+c_insee+".wms?contextualWMSLegend=0&crs=EPSG:"+Code_EPSG+"&dpiMode=7&featureCount=10&format=image/png&layers=DETAIL_TOPO&styles="
+        urlWithParams = "url=http://inspire.cadastre.gouv.fr/scpc/"+c_insee+".wms?contextualWMSLegend=0&crs=EPSG:"+Code_EPSG+"&dpiMode=7&featureCount=10&format=image/png&layers=DETAIL_TOPO&styles=&maxHeight=1024&maxWidth=1280"
 
         rlayer = QgsRasterLayer(urlWithParams, 'Details_topographiques_'+n_couche+'_'+c_insee, 'wms')
 
