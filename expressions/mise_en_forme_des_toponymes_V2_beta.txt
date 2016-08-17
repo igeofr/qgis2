@@ -1,0 +1,264 @@
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(﻿replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(
+/*=====================================================*/
+replace(replace(replace(replace(replace(replace(
+/*=====================================================*/
+replace(replace(
+/*=====================================================*/
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(﻿replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+/*=====================================================*/
+replace(replace(replace(replace(replace(
+/*=====================================================*/
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(﻿replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(
+/*=====================================================*/
+replace(replace(replace(replace(replace(replace(replace(replace(﻿replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(﻿replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(
+/*=====================================================*/
+replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(
+replace(replace(replace(replace(replace(replace(replace(replace(replace(
+/*=====================================================*/
+replace(replace(replace(replace(replace(
+/*=====================================================*/
+title(
+replace(replace( "nom" ,
+'-', ' - '),
+'''',''' ')),
+/*=====================================================*/
+/*Ces mots seront écrits avec une majuscule lorsqu'ils se trouvent en début de toponyme, 
+et avec une minuscule à l'intérieur ou en fin de toponyme. */
+/*=====================================================*/
+/*Articles contractés français*/
+' Au ',' au '),
+' Aux ',' aux '),
+' Du ', ' du '),
+' Des ', ' des '),
+' Ès ', ' ès '),
+/*=====================================================*/
+/*Articles contractés régionaux*/
+' Â ',' â '),
+' Agli ',' agli '),
+' Ai ',' ai '),
+' Al ',' al '),
+' Als ',' als '),
+' Am ',' am '),
+' As ',' as '),
+' Beim ',' beim '),
+' Dei ',' dei '),
+' Del ',' del '),
+' Dels ',' dels '),
+' Det ',' det '),
+' Dets ',' dets '),
+' Em ',' em '),
+' Im ',' im '),
+' Um ',' um '),
+' Vom ',' vom '),
+' Zum ',' zum '),
+' Zur ',' zur '),
+/*=====================================================*/
+/*Autres termes français*/
+' À ',' à '),
+' À - Bas ',' à - bas '),
+' À - Haut ',' à - haut '),
+' Au - Delà ',' au - delà '),
+' Au - Dessous ',' au - dessous '),
+' Au - Dessus ',' au - dessus '),
+' Auprès ',' auprès '),
+' Bien ',' bien '),
+' Chez ',' chez '),
+' Ci-devant ',' ci-devant '),
+' Contre ',' contre '),
+' D''',' d'''),
+' Dans ', ' dans '),
+' De ', ' de '),
+' Deçà ', ' deçà '),
+' De - Ci ', ' de - ci '),
+' Delà ', ' delà '),
+' De - là ', ' de - là '),
+' Derrière ', ' derrière '),
+' Dessous ', ' dessous '),
+' Dessus ', ' dessus '),
+' Devant ', ' devant '),
+' En ', ' en '),
+' Entre ', ' entre '),
+' Et ', ' et '),
+' Face (À) ', ' Face (à) '),
+' Lès ', ' lès '),
+' Lez ', ' lez '),
+' Loin (De) ', ' Loin (de) '),
+' Mal ', ' mal '),
+' Malgré ', ' malgré '),
+' Mi ', ' mi '),
+' Non ', ' non '),
+' Ou ', ' ou '),
+' Ou ', ' où '),
+' Outre ', ' outre '),
+' Outre - Mer ', ' outre - mer '),
+' Outre - Tombe ', ' outre - tombe '),
+' Outre - Rhin ', ' outre - Rhin '),
+' Par ', ' par '),
+' Par - Delà', ' par - delà '),
+' Par - Dessous', ' par - dessous '),
+' Par - Dessus', ' par - dessus '),
+' Peu', ' peu'),
+' Près ', ' près '),
+' Sans ', ' sans '),
+' Sauf ', ' sauf '),
+' Sous ', ' sous '),
+' Sur ', ' sur '),
+' Sus ', ' sus '),
+' Tard ', ' tard '),
+' Tout ', ' tout '),
+' Très ', ' très '),
+' Vers ', ' vers '),
+' Vis - À - Vis ', ' vis - à - vis '),
+/*=====================================================*/
+/*Autres termes régionaux*/
+' A ',' a '),
+' Auf ',' auf '),
+' Bei ',' bei '),
+' Cal ',' cal '),
+' Can ',' can '),
+' D'' Al Laez ',' d'' al laez '),
+' Dalaé ',' dalaé '),
+' Darios ',' darios '),
+' Darré ',' darré '),
+' Debas ',' debas '),
+' Débas ',' débas '),
+' Debat ',' debat '),
+' Débat ',' débat '),
+' Delai ',' delai '),
+' Detras ',' detras '),
+' Di ',' di '),
+' Durch ',' durch '),
+' Hinter ',' hinter '),
+' In ',' in '),
+' Nieder ',' nieder '),
+' Oben ',' oben '),
+' Ober ',' ober '),
+' Op ',' op '),
+' Over ',' over '),
+' Soubre ',' soubre '),
+' Soubré ',' Soubré '),
+' Tras ',' tras '),
+' Tré ',' tré '),
+' Ueber ',' ueber '),
+' Unter ',' unter '),
+' Vor ',' vor '),
+' Vorder ',' vorder '),
+' Zu ',' zu '),
+' Zwischen ',' zwischen '),
+/*=====================================================*/
+/*Ces mots seront toujours écrits avec une minuscule.*/
+/*Articles français*/
+' Le ', ' le '),
+' La ', ' la '),
+' Les ', ' les '),
+' L'' ', ' l'' '),
+' Un ', ' un '),
+' Une ', ' une '),
+/*=====================================================*/
+/*Articles régionaux*/
+' A ', ' a '),
+' Al ', ' al '),
+' Als ', ' als '),
+' An ', ' an '),
+' Ar ', ' ar '),
+' D ', ' d '),
+' Das ', ' das '),
+' De ', ' de '),
+' Dem ', ' dem '),
+' Den ', ' den '),
+' Der ', ' der '),
+' Die ', ' die '),
+' E ', ' e '),
+' Ech ', ' ech '),
+' El ', ' el '),
+' Éla ', ' éla '),
+' Els ', ' els '),
+' En ', ' en '),
+' Er ', ' er '),
+' Era ', ' era '),
+' Ero ', ' ero '),
+' Et ', ' et '),
+' Eul ', ' eul '),
+' Eun ', ' eun '),
+' Eur ', ' eur '),
+' Gli ', ' gli '),
+' Het ', ' het '),
+' I ', ' i '),
+' Las ', ' las '),
+' Lé ', ' lé '),
+' Lo ', ' lo '),
+' Los ', ' los '),
+' Lou ', ' lou '),
+' Lous ', ' lous '),
+' S ', ' s '),
+' T ', ' t '),
+' U ', ' u '),
+' Ul ',' ul '),
+' Ur ', ' ur '),
+/*=====================================================*/
+' - ', '-'),
+''' ', ''''),
+/*=====================================================*/
+/*Ces mots seront toujours écrits avec une minuscule.*/
+/*Articles français*/
+'Le ', 'le '),
+'La ', 'la '),
+'Les ', 'les '),
+'L'' ', 'l'' '),
+'Un ', 'un '),
+'Une ', 'une '),
+/*=====================================================*/
+/*Articles régionaux*/
+'A ', 'a '),
+'Al ', 'al '),
+'Als ', 'als '),
+'An ', 'an '),
+'Ar ', 'ar '),
+'D ', 'd '),
+'Das ', 'das '),
+'De ', 'de '),
+'Dem ', 'dem '),
+'Den ', 'den '),
+'Der ', 'der '),
+'Die ', 'die '),
+'E ', 'e '),
+'Ech ', 'ech '),
+'El ', 'el '),
+'Éla ', 'éla '),
+'Els ', 'els '),
+'En ', 'en '),
+'Er ', 'er '),
+'Era ', 'era '),
+'Ero ', 'ero '),
+'Et ', 'et '),
+'Eul ', 'eul '),
+'Eun ', 'eun '),
+'Eur ', 'eur '),
+'Gli ', 'gli '),
+'Het ', 'het '),
+'I ', 'i '),
+'Las ', 'las '),
+'Lé ', 'lé '),
+'Lo ', 'lo '),
+'Los ', 'los '),
+'Lou ', 'lou '),
+'Lous ', 'lous '),
+'S ', 's '),
+'T ', 't '),
+'U ', 'u '),
+'Ul ', 'ul '),
+'Ur ', 'ur ')
