@@ -165,7 +165,7 @@ et avec une minuscule à l'intérieur ou en fin de toponyme. */
 ' Le ', ' le '),
 ' La ', ' la '),
 ' Les ', ' les '),
-' L'' ', ' l'' '),
+' L''', ' l'''),
 ' Un ', ' un '),
 ' Une ', ' une '),
 /*=====================================================*/
@@ -218,7 +218,7 @@ et avec une minuscule à l'intérieur ou en fin de toponyme. */
 'Le ', 'le '),
 'La ', 'la '),
 'Les ', 'les '),
-'L'' ', 'l'' '),
+'L''', 'l'''),
 'Un ', 'un '),
 'Une ', 'une '),
 /*=====================================================*/
