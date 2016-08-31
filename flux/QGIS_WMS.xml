@@ -456,10 +456,7 @@
 
     <!-- ///////////////////// EUROPE ///////////////////// -->
     <!-- ESPAGNE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/minutas-cartograficas?request=GetCapabilities&service=WMS?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_MINUTAS_CARTOGRAPHICAS"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/primera-edicion-mtn?request=GetCapabilities&amp;service=WMS?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_PRIMERA_EDICION_MTN50"/>
-
-
-
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/minutas-cartograficas?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_MINUTAS_CARTOGRAPHICAS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/primera-edicion-mtn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_PRIMERA_EDICION_MTN50"/>
 
 </qgsWMSConnections>
