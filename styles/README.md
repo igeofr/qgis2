@@ -1,1 +1,0 @@
-Répertoire des styles QGIS
