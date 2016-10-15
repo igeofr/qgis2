@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qgsCSWConnections version="1.0">
+    <!-- Source : http://geocat.docinspire.eu/geocats.php -->
+
+    <!-- FRANCE -->
+    <csw name="GEOIDE" url="http://catalogue.geo-ide.developpement-durable.gouv.fr/catalogue/srv/eng/csw-moissonnable-ds-2"/>
+    <csw name="GEOIDE MOREA" url="http://catalogue.geo-ide.application.i2/catalogue/srv/eng/csw-moissonnable-ds-2"/>
+
+    <csw name="ADELIE" url="http://adelie.application.developpement-durable.gouv.fr/minicsw.do"/>
+    <csw name="ADELIE MOREA" url="http://adelie.application.i2/minicsw.do"/>
+
+    <csw name="MAAF - DGER" url="http://www.mongeosource.fr/geosource/1230/fre/csw"/>
+
+    <csw name="IGN - GEOPORTAIL" url="http://wxs.ign.fr/uxyi51ozcgwpy6s2nd6mutdw/geoportail/csw"/>
+    <csw name="IGN - INSPIRE" url="http://wxs.ign.fr/uxyi51ozcgwpy6s2nd6mutdw/inspire/csw"/>
+
+    <csw name="SHOM" url="http://wxs.ign.fr/uxyi51ozcgwpy6s2nd6mutdw/inspire/csw"/>
+
+    <csw name="DGFIP" url="http://www.mongeosource.fr/geosource/1003/eng/csw"/>
+
+    <csw name="EAU FRANCE" url="http://www.data.eaufrance.fr/geosource/srv/fre/csw"/>
+    <csw name="EAU FRANCE - SANDRE" url="http://services.sandre.eaufrance.fr/geonetwork_CSW/srv/fr/csw"/>
+
+    <csw name="AGENCE EAU - ADOUR-GARONNE" url="http://catalogue.adour-garonne.eaufrance.fr/catalog/srv/fre/csw-sie-seul"/>
+    <csw name="AGENCE EAU - ARTOIS-PICARDIE" url="http://metadata.carmencarto.fr/geosource/52/eng/csw"/>
+    <csw name="AGENCE EAU - RHONE MEDITERRANEE CORSE" url="http://metadata.carmencarto.fr/geosource/80/eng/csw"/>
+
+    <csw name="AERMC" url="http://metadata.carmencarto.fr/geosource/115/eng/csw"/>
+
+    <csw name="SINP" url="http://inventaire.naturefrance.fr/geosource/srv/fre/csw"/>
+
+    <csw name="BRGM SIGES1" url="http://metadata.carmencarto.fr/geosource/120/fre/csw"/>
+    <csw name="BRGM SIGES2" url="http://metadata.carmencarto.fr/geosource/121/fre/csw"/>
+    <csw name="BRGM SIGES3" url="http://metadata.carmencarto.fr/geosource/122/fre/csw"/>
+    <csw name="BRGM SIGES4" url="http://metadata.carmencarto.fr/geosource/137/fre/csw"/>
+    <csw name="BRGM SIGES5" url="http://metadata.carmencarto.fr/geosource/151/fre/csw"/>
+    <csw name="BRGM SIGES6" url="http://metadata.carmencarto.fr/geosource/152/fre/csw"/>
+    <csw name="BRGM SIGES7" url="http://metadata.carmencarto.fr/geosource/189/fre/csw"/>
+    <csw name="BRGM SIGES8" url="http://metadata.carmencarto.fr/geosource/198/fre/csw"/>
+    <csw name="BRGM SIGES9" url="http://metadata.carmencarto.fr/geosource/202/fre/csw"/>
+    <csw name="BRGM SIGES10" url="http://metadata.carmencarto.fr/geosource/213/fre/csw"/>
+
+    <csw name="IFREMER" url="http://sextant.ifremer.fr/geonetwork/srv/eng/csw"/>
+
+    <csw name="AAMP" url="http://cartographie.aires-marines.fr/geosource/srv/fre/csw"/>
+
+    <csw name="MNHN" url="http://metadata.carmencarto.fr/geosource/119/eng/csw"/>
+
+    <csw name="ONF" url="http://metadata.carmencarto.fr/geosource/105/eng/csw"/>
+
+    <csw name="PARCS NATIONAUX1" url="http://extranet.parcnational.fr/catalogue/fcb/fre/csw"/>
+    <csw name="PARCS NATIONAUX2" url="http://extranet.parcnational.fr/catalogue/pnx/fre/csw"/>
+
+    <csw name="INAO" url="http://metadata.carmencarto.fr/geosource/110/eng/csw"/>
+
+    <csw name="ATLASANTE" url="http://www.atlasante.fr/geonetwork/srv/fre/csw"/>
+
+    <csw name="INRA" url="http://w3.avignon.inra.fr/geonetwork_anaee/srv/eng/csw"/>
+
+    <csw name="VOIES NAVIGABLES 1" url="http://www.mongeosource.fr/geosource/1010/fre/csw"/>
+    <csw name="VOIES NAVIGABLES 2" url="http://www.vnf.fr/sigfed/csw"/>
+
+    <csw name="CEREMA - NORMANDIE-CENTRE" url="http://www.mongeosource.fr/geosource/1111/fre/csw"/>
+
+    <csw name="ERDF" url="http://www.mongeosource.fr/geosource/1187/fre/csw"/>
+
+    <csw name="CNRS-DRIIHM-BBES" url="http://ccwbvps01.in2p3.fr:8080/geonetwork/srv/eng/csw"/>
+    <csw name="MINES PARISTECH" url="http://geocatalog.webservice-energy.org/geonetwork/srv/eng/csw"/>
+
+
+
+
+    <!-- REGION -->
+    <!-- Alsace - Champagne-Ardenne - Lorraine -->
+    <csw name="CIGALSACE" url="https://www.cigalsace.org/geonetwork/srv/eng/csw"/>
+    <csw name="DREAL ALSACE" url="http://www.mongeosource.fr/geosource/1245/fre/csw"/>
+    <csw name="DREAL CHAMPAGNE-ARDENNE" url="http://metadata.carmencarto.fr/geosource/12/eng/csw"/>
+    <csw name="MOSELLE INFOGEO" url="http://www.moselleinfogeo.fr:8080/geosource/srv/fre/csw"/>
+    <csw name="INFOGEO68" url="http://meta.infogeo68.fr/geoportal/csw"/>
+
+    <!-- Limousin - Poitou-Charentes -->
+    <csw name="PIGMA" url="http://ids.pigma.org/geonetwork/srv/eng/csw"/>
+    <csw name="GEOLIMOUSIN" url="http://catalogue.geolimousin.fr/geonetwork/srv/fre/csw"/>
+    <csw name="PEGASE POITOU-CHARENTES" url="http://catalogue.pegase-poitou-charentes.fr/geonetwork/srv/fre/csw"/>
+    <csw name="OBSERVATOIRE-ENVIRO - POITOU-CHARENTES" url="http://geocatalogue.observatoire-environnement.org:8080/geosource/srv/fre/csw"/>
+    <csw name="GEOPLATEFORME17" url="https://www.geoplateforme17.fr/proxy/geonetwork-cat"/>
+    <csw name="GRAND POITIERS" url="https://infogeo.grandpoitiers.fr/geoportal/csw/discovery"/>
+
+    <!-- Auvergne - Rhône-Alpes -->
+
+
+
+    <csw name="GEOPAL" url="http://www.geopal.org/geonetwork/srv/fre/csw"/>
+    <csw name="SIGLOIRE" url="http://catalogue.sigloire.fr/geonetwork/srv/fre/csw"/>
+    <csw name="GEOVENDEE" url="http://www.geovendee.fr/geonetwork/srv/fre/csw"/>
+    <csw name="CRIGE PACA" url="http://geocatalogue.crige-paca.org/geonetwork/srv/fr/csw"/>
+    <csw name="PEIGEO" url="http://www.peigeo.re/geonetwork/srv/fre/csw"/>
+    <csw name="GEOREP.NC" url="http://www.geoportal.gouv.nc/geoportal/csw/discovery"/>
+    <csw name="DREAL PACA" url="http://metadata.carmencarto.fr/geosource/25/eng/csw"/>
+    <csw name="GEOGUYANE" url="http://catalogue.geoguyane.fr/geonetwork/srv/fre/csw"/>
+
+
+</qgsCSWConnections>
