@@ -1,8 +1,10 @@
+#Script cree suite a la discussion suivante : http://georezo.net/forum/viewtopic.php?pid=290713#p290713
+
 ##Style=group
 ##Style to CSV=name
 
 ##Vector_layer=vector 
-##Output_file=output table 
+##Output_file=output table
 
 import csv
 layer = processing.getObject(Vector_layer)
