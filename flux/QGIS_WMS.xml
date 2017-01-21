@@ -290,18 +290,11 @@
     <!-- ATLASANTE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ATLASANTE"/>
 
-    <!-- GEORISQUES -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://georisques.gouv.fr/services?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GEORISQUES"/>
-
-    <!-- GEOSUD -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.equipex-geosud.fr/constellation/WS/wmts/WMTS?Service=WMTS&amp;version=1.0.0&amp;Request=GetCapabilities" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GEOSUD"/>
-
     <!-- CARTOMER -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartographie.aires-marines.fr/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTOMER"/>
 
     <!-- CADASTRE MINIER -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/209/CADASTRE_MINIER_DGALN?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CADASTRE_MINIER"/>
-
 
     <!-- ADES -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ADES"/>
@@ -312,6 +305,12 @@
 
     <!-- CLC -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CLC"/>
+
+    <!-- GEORISQUES -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://georisques.gouv.fr/services?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GEORISQUES"/>
+
+    <!-- GEOSUD -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.equipex-geosud.fr/constellation/WS/wmts/WMTS?Service=WMTS&amp;version=1.0.0&amp;Request=GetCapabilities" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GEOSUD"/>
 
     <!-- GISSOL -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
