@@ -292,6 +292,10 @@
 
     <!-- GEORISQUES -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://georisques.gouv.fr/services?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GEORISQUES"/>
+
+    <!-- GEOSUD -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.equipex-geosud.fr/constellation/WS/wmts/WMTS?Service=WMTS&amp;version=1.0.0&amp;Request=GetCapabilities" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GEOSUD"/>
+
     <!-- CARTOMER -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartographie.aires-marines.fr/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTOMER"/>
 
