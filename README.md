@@ -65,3 +65,4 @@ Pour ajouter des flux dans QGIS depuis un fichier xml :
   - [Supprimer les accents d'un champs (Minuscules)] (expressions/supprimer_les_accents_minuscules.txt)
   - [Supprimer les accents d'un champs (Majuscules)] (expressions/supprimer_les_accents_minuscules.txt)
   - [Mise en forme des toponymes] (expressions/mise_en_forme_des_toponymes.txt)
+  - [Mise en forme des toponymes une V2 plu complète en TEST] (expressions/mise_en_forme_des_toponymes_V2_beta.txt)
