@@ -76,7 +76,7 @@
 
     <!-- GEORISQUES -->
     <wfs password="" referer="" username="" url="http://georisques.gouv.fr/services?" name="GEORISQUES"/>
-    
+
     <!-- GEST EAU -->
     <wfs password="" referer="" username="" url="http://gesteau.eaufrance.fr/service?VERSION=1.1.0" name="FRANCE_GEST_EAU"/>
 
@@ -167,7 +167,7 @@
     <wfs password="" referer="" username="" url="http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?VERSION=1.1.0" name="REGION_PEGASE"/>
 
     <!-- PIGMA -->
-    <wfs password="" referer="" username="" url="http://ids.pigma.org/geoserver/wfs" name="REGION_PIGMA"/>
+    <wfs password="" referer="" username="" url="https://www.pigma.org/geoserver/wfs" name="REGION_PIGMA"/>
 
     <!-- SIGLR -->
     <wfs password="" referer="" username="" url="http://wfs.siglr.org/wfspolitiqueville?" name="REGION_SIGLR_POLITIQUE_DE_LA_VILLE"/>
