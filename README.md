@@ -39,9 +39,9 @@ Documentation QGIS : [Créer des scripts et les exécuter depuis la boîte à ou
 
   - Scipts : Testé sur QGIS 2.6 (Attention à la compatibilité)
 
-  - [CSV R-G-B to categorized style] (scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
+  - [CSV R-G-B to categorized style](scripts/CSV_R-G-B_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir de champs séparés Red, Green et Blue contenu dans un fichier CSV
   - [CSV RGB or HEX to categorized style] (scripts/CSV_RGB_or_HEX_to_categorized_style.py) : Permet de créer une symbologie catégorisée à partir d'un champ R,G,B ou hexadécimal contenu dans un fichier CSV
-  - [Style to CSV] (scripts/Style_to_CSV.py) : Permet de récupérer les informations (Value, Label, Hexa, RGBA, R, G, B, A) d'un style créé sur QGIS (style catégorisé, ensemble de règles,...) au format CSV ce script fait a été créé suite à une discussion sur [Georezo](http://georezo.net/forum/viewtopic.php?pid=290713#p290713)
+  - [Style to CSV](scripts/Style_to_CSV.py) : Permet de récupérer les informations (Value, Label, Hexa, RGBA, R, G, B, A) d'un style créé sur QGIS (style catégorisé, ensemble de règles,...) au format CSV ce script fait a été créé suite à une discussion sur [Georezo](http://georezo.net/forum/viewtopic.php?pid=290713#p290713)
   - [Import color ramp Colourslovers.com] (scripts/Import_color_ramp_Colourlovers.com/Import_color_ramp_Colourlovers.com.py) : Permet d'importer une palette de couleurs dans QGIS à partir des palettes référencées sur le site [Colourlovers.com](Colourlovers.com)
   - [Cadastre FR WMS] (scripts/Cadastre_FR/) : Afficher le Cadastre (WMS) de plusieurs communes à partir d'une couche vectorielle des communes.
 
@@ -62,7 +62,7 @@ Pour ajouter des flux dans QGIS depuis un fichier xml :
 
 **Expressions disponibles :**
 
-  - [Supprimer les accents d'un champs (Minuscules)] (expressions/supprimer_les_accents_minuscules.txt)
-  - [Supprimer les accents d'un champs (Majuscules)] (expressions/supprimer_les_accents_minuscules.txt)
+  - [Supprimer les accents d'un champs (Minuscules)](expressions/supprimer_les_accents_minuscules.txt)
+  - [Supprimer les accents d'un champs (Majuscules)](expressions/supprimer_les_accents_minuscules.txt)
   - [Mise en forme des toponymes] (expressions/mise_en_forme_des_toponymes.txt)
-  - [Mise en forme des toponymes une V2 plu complète en TEST] (expressions/mise_en_forme_des_toponymes_V2_beta.txt)
+  - [Mise en forme des toponymes une V2 plus complète en TEST](expressions/mise_en_forme_des_toponymes_V2_beta.txt) et basé sur [ce document de l'IGN](http://www.ign.fr/sites/all/files/charte_toponymie_ign.pdf) / Voir aussi [cet échange sur Géorezo](http://georezo.net/forum/viewtopic.php?pid=281390)
