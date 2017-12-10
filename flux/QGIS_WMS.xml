@@ -338,7 +338,10 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/epa_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_TAAF_ILES_EPARSES"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/blm_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_BARTHELEMY"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/guf_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_GUYANE"/>
-
+    
+    <!-- GEOPORTAIL DE L'URBANISME-->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOPORTAIL_URBANISME"/>
+    
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>
