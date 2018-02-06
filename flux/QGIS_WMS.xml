@@ -108,6 +108,31 @@
     <!-- GEOLIMOUSIN -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geolimousin.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOLIMOUSIN"/>
 
+    <!-- GUYANE SIG -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/administratif/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_ADMINISTRATIF"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/altimetrie/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_ALTIMETRIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/cadastre/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_CADASTRE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/du/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_DOCUMENTS_URBANISME"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/economie/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_ECONOMIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/esp/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_EQUIPEMENTS_ET_SERVICES_PUBLICS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/seas_2/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_SEAS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/ign/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_IGN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/ortho/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_ORTHO"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/osm/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_OSM"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/gwc/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_SIG_GUYANE_WMTS"/>
+
+    <!-- GEOGUYANE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://carto.geoguyane.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOGUYANE"/>
+
+    <!-- GEOMAYOTTE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOMAYOTTE"/>
+
+    <!-- PEIGO -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.ppige-npdc.fr/geoserver/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PEIGO"/>
+
+    <!-- PEIGO -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.peigeo.re/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE"/>
+
     <!-- PIGMA -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.pigma.org/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PIGMA_ALL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.pigma.org/geoserver/cg47/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PIGMA_CG47"/>
@@ -288,7 +313,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_SHOM_INSPIRE_TUILE"/>
 
     <!-- ATLASANTE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ATLASANTE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://carto.atlasante.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ATLASANTE"/>
 
     <!-- CARTOMER -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://cartographie.aires-marines.fr/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CARTOMER"/>
@@ -316,7 +341,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://agroenvgeo.data.inra.fr/geoserver/gissol_rmqs/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GISSOL"/>
 
     <!-- MNHN Zonages de protection -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WFS/119/fxx_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_METROPOLE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/fxx_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_METROPOLE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/reu_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_REUNION"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/guf_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_GUYANE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/spm_inpn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_ZONAGES_SAINT_PIERRE_ET_MIQUELON"/>
@@ -338,10 +363,10 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/epa_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_TAAF_ILES_EPARSES"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/blm_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_BARTHELEMY"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/119/guf_grille?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_MNHN_GRILLE_SAINT_GUYANE"/>
-    
+
     <!-- GEOPORTAIL DE L'URBANISME-->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wxs-gpu.mongeoportail.ign.fr/externe/vkd1evhid6jdj5h4hkhyzjto/wms/v" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOPORTAIL_URBANISME"/>
-    
+
     <!-- ///////////////////// DIVERS ///////////////////// -->
     <!-- SIGLOIRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.sigloire.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DIVERS_SIGLOIRE"/>

@@ -52,7 +52,7 @@
     <wfs password="" referer="" username="" url="http://services.ades.eaufrance.fr/carto/wfs" name="FRANCE_ADES"/>
 
     <!-- ATLASANTE -->
-    <wfs password="" referer="" username="" url="http://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
+    <wfs password="" referer="" username="" url="https://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
 
     <!-- CLC -->
     <wfs password="" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wfs" name="FRANCE_CLC"/>
@@ -124,10 +124,10 @@
 
     <!-- SHOM -->
     <wfs password="" referer="" username="" url="http://wxs-gpu.mongeoportail.ign.fr/externe/39wtxmgtn23okfbbs1al2lz3/wfs" name="FRANCE_GEOPORTAIL_URBANISME"/>
-    
+
     <!-- GEOPORTAIL DE l'URBANISME -->
     <wfs password="" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wfs" name="FRANCE_SHOM"/>
-    
+
     <!-- ///////////////////// REGION ///////////////////// -->
     <!-- CIGAL -->
     <wfs password="" referer="" username="" url="https://www.cigalsace.org/geoserver/cigal/ows" name="REGION_CIGAL"/>
@@ -168,6 +168,29 @@
 
     <!-- PEGASE -->
     <wfs password="" referer="" username="" url="http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?VERSION=1.1.0" name="REGION_PEGASE"/>
+
+    <!-- SIG GUYANE -->
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/administratif/wfs" name="REGION_SIG_GUYANE_ADMINISTRATIF"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/altimetrie/wfs" name="REGION_SIG_GUYANE_ALTIMETRIE"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/cadastre/wfs" name="REGION_SIG_GUYANE_CADASTRE"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/economie/wfs" name="REGION_SIG_GUYANE_ECONOMIE"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/esp/wfs" name="REGION_SIG_GUYANE_EQUIPEMENTS_ET_SERVICES_PUBLICS"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/seas_2/wfs" name="REGION_SIG_GUYANE_SEAS"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/ign/wfs" name="REGION_SIG_GUYANE_IGN"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/ortho/wfs" name="REGION_SIG_GUYANE_ORTHO"/>
+    <wfs password="" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/osm/wfs" name="REGION_SIG_GUYANE_OSM"/>
+
+    <!-- GEOGUYANE -->
+    <wfs password="" referer="" username="" url="https://carto.geoguyane.fr/cgi-bin/mapservwfs?" name="REGION_GEOGUYANE"/>
+
+    <!-- GEOMAYOTTE -->
+    <wfs password="" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapservwfs?" name="REGION_GEOMAYOTTE"/>
+
+    <!-- PEIGEO -->
+    <wfs password="" referer="" username="" url="http://carto.peigeo.re/cgi-bin/mapservwfs?" name="REGION_PEIGEO"/>
+
+    <!-- PPIGE -->
+    <wfs password="" referer="" username="" url="https://www.ppige-npdc.fr/geoserver/ows?" name="REGION_PPIGE"/>
 
     <!-- PIGMA -->
     <wfs password="" referer="" username="" url="https://www.pigma.org/geoserver/wfs" name="REGION_PIGMA"/>

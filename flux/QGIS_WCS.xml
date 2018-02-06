@@ -1,4 +1,5 @@
 <!DOCTYPE connections>
 <qgsWCSConnections version="1.0">
     <wcs password="" username="" url="http://clc.developpement-durable.gouv.fr/geoserver/wcs" name="FRANCE_CLC"/>
+    <wcs password="" username="" url="https://www.ppige-npdc.fr/geoserver/ows" name="REGION_PPIGE"/>
 </qgsWCSConnections>
