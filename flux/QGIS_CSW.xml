@@ -67,9 +67,6 @@
     <csw name="CNRS-DRIIHM-BBES" url="http://ccwbvps01.in2p3.fr:8080/geonetwork/srv/eng/csw"/>
     <csw name="MINES PARISTECH" url="http://geocatalog.webservice-energy.org/geonetwork/srv/eng/csw"/>
 
-
-
-
     <!-- REGION -->
     <!-- Alsace - Champagne-Ardenne - Lorraine -->
     <csw name="CIGALSACE" url="https://www.cigalsace.org/geonetwork/srv/eng/csw"/>
@@ -86,18 +83,25 @@
     <csw name="GEOPLATEFORME17" url="https://www.geoplateforme17.fr/proxy/geonetwork-cat"/>
     <csw name="GRAND POITIERS" url="https://infogeo.grandpoitiers.fr/geoportal/csw/discovery"/>
 
-    <!-- Auvergne - Rhône-Alpes -->
-
-
-
+    <!-- Pays de la Loire -->
     <csw name="GEOPAL" url="http://www.geopal.org/geonetwork/srv/fre/csw"/>
     <csw name="SIGLOIRE" url="http://catalogue.sigloire.fr/geonetwork/srv/fre/csw"/>
     <csw name="GEOVENDEE" url="http://www.geovendee.fr/geonetwork/srv/fre/csw"/>
-    <csw name="CRIGE PACA" url="http://geocatalogue.crige-paca.org/geonetwork/srv/fr/csw"/>
+
+    <!--  Réunion -->
     <csw name="PEIGEO" url="http://www.peigeo.re/geonetwork/srv/fre/csw"/>
+
+    <!-- Nouvelle Caléonie -->
     <csw name="GEOREP.NC" url="http://www.geoportal.gouv.nc/geoportal/csw/discovery"/>
+
+    <!-- PACA -->
     <csw name="DREAL PACA" url="http://metadata.carmencarto.fr/geosource/25/eng/csw"/>
+    <csw name="CRIGE PACA" url="http://geocatalogue.crige-paca.org/geonetwork/srv/fr/csw"/>
+
+
+    <!-- Guyane -->
     <csw name="GEOGUYANE" url="http://catalogue.geoguyane.fr/geonetwork/srv/fre/csw"/>
+    <csw name="GEOGUYANE" url="https://www.geoguyane.fr/geonetwork/srv/fre/csw-geoguyane?"/>
 
 
 </qgsCSWConnections>
