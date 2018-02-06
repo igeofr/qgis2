@@ -2,8 +2,7 @@
 <qgsWMSConnections version="1.0">
 
     <!-- ///////////////////// VILLE, METROPOLE, AGGLOMERATION, PAYS ///////////////////// -->
-
-    <!-- Lyon Plateforme DATA -->
+    <!-- GRAND LYON -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://download.data.grandlyon.com/wms/grandlyon" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GRAND_LYON"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://download.data.grandlyon.com/wms/rdata" invertAxisOrientation="false" ignoreAxisOrientation="false" name="GRAND_LYON"/>
 
@@ -40,8 +39,6 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SIGAvesnois_Patrim?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_PATRIMOINE_NATUREL"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/56/SigAvesnois_risques_naturels?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="PNR_AVESNOIS_RISQUES_NATURELS"/>
 
-
-
     <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
     <!-- 17 - CHARENTE MARITIME - GEOPLATEFORME -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://geo.geoplateforme17.fr/CG17/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_17_CHARENTE_MARITIME"/>
@@ -76,7 +73,7 @@
     <!-- AIR BREIZH -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://sig.airbreizh.asso.fr/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_AIR_BREIZH"/>
 
-    <!-- CIGALE_ALSACE -->
+    <!-- CIGAL_ALSACE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/CD67/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_DONNEES_67_BAS_RHIN"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/CRA/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_DONNEES_REGIONALES"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.cigalsace.org/geoserver/IGN/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CIGAL_IGN"/>
@@ -93,7 +90,6 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.craig.fr/wxs/public/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_PUBLIC"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ids.craig.fr/wxs/membres/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_CRAIG_MEMBRES"/>
 
-
     <!-- GEOBOURGOGNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://datacarto.geobourgogne.fr/WMS/wms.php?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBOURGOGNE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geobourgogne.fr/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBOURGOGNE_TUILE"/>
@@ -109,17 +105,8 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ows.region-bretagne.fr/geoserver/edit_rb/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOBRETAGNE_SIGN_ADRESSE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geobretagne.fr/geoserver/bretagneenvironnement/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GIP_BRETAGNE_ENVIRONNEMENT"/>
 
-    <!-- GEO_CENTRE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEO_CENTRE"/>
-
-    <!-- GEOGUYANE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://carto.geoguyane.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOGUYANE"/>
-
     <!-- GEOLIMOUSIN -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geolimousin.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOLIMOUSIN"/>
-
-    <!-- GEOMAYOTTE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOMAYOTTE"/>
 
     <!-- GEONORMANDIE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geonormandie.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEONORMANDIE"/>
@@ -135,6 +122,12 @@
 
     <!-- GEORHONEALPES -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.georhonealpes.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEORHONEALPES"/>
+
+    <!-- GEOGUYANE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://carto.geoguyane.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOGUYANE"/>
+
+    <!-- GEO_CENTRE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geo-centre.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEO_CENTRE"/>
 
     <!-- GUYANE SIG -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://catalogue.guyane-sig.fr/geoserver/administratif/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GUYANE_SIG_ADMINISTRATIF"/>
@@ -155,7 +148,7 @@
     <!-- PEGASE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url=" http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PEGASE"/>
 
-    <!-- PEIGO -->
+    <!-- PEIGO (REUNION) -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.peigeo.re/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE"/>
 
     <!-- PIGMA -->
@@ -181,29 +174,38 @@
 
     <!-- DRIEE ILE DE FRANCE (à venir) -->
 
-    <!-- DREAL LR -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/19/dreal_lr_general?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LR_DONNEES_GENERALES"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/19/dreal_lr_crues_rhone?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LR_CRUES_RHONE"/>
-
-    <!-- DREAL LORRAINE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_SARR?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_SARR"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_NANC?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_NANC"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_globale_lorraine?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_CARTE_GLOBALE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_METZ?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_METZ"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_DIE?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_DIE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_n2000_grande_region?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_N2000_GRANDE_REGION"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_LONG?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_LONG"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_VERD?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_VERD"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_SEDA?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_SEDA"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_EPIN?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_EPIN"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_PONT?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_PONT"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_NEUF?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_NEUF"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_zones_humides_lorraine?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_ZONES_HUMIDES"/>
-
+    <!-- ///////////////////// DREAL ///////////////////// -->
     <!-- DREAL ALSACE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/5/Carte_Alsace?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_ALSACE_CARTE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/5/Carte_Alsace_SRCE?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_ALSACE_SRCE"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/5/carte_DI_MULHOUSE_APPROUVE?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_ALSACE_DI_MULHOUSE_APPROUVE?"/>
+
+    <!-- DREAL AQUITAINE -->
+
+    <!-- DREAL BRETAGNE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/Natura_2000?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_NATURA_2000"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/Nature_Paysage?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_NATURE_PAYSAGE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/Risque?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_RISQUE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/L93_Protections?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_PROTECTIONS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/EAU?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_EAU"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/L93_Inventaires?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_INVENTAIRES"/>
+
+    <!-- DREAL CENTRE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/reperes_crue?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_REPERES_DE_CRUE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin1?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_BASSIN_LOIRE_BRETAGNE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_L214?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_SDAGE_2009"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eolien?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_EOLIEN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_sdpc?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_SDPC"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/rzp_bassin?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_RZP"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_reseau_dce?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_DCE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/blois?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_BLOIS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/orleans?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_ORLEANS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/tours?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_TOURS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_connaissance?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_CONNAISSANCE_BASSIN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_L214_consultation2?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_L214_CONSULTATION"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_tri?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_EAU_BASSIN_TRI"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/DREAL24?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_DREAL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/PHEC_CHER_NIEVRE?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_PHEC_CHER_NIEVRE"/>
 
     <!-- DREAL HAUTE NORMANDIE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/17/carte_generale?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_HAUTE_NORMANDIE_CARTE_GENERALE"/>
@@ -226,36 +228,27 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/17/risques_techno?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_HAUTE_NORMANDIE_RISQUES_TECHNO"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/17/risques_techno?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_HAUTE_NORMANDIE_RISQUES_TECHNO"/>
 
-    <!-- DREAL BRETAGNE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/Natura_2000?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_NATURA_2000"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/Nature_Paysage?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_NATURE_PAYSAGE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/Risque?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_RISQUE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/L93_Protections?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_PROTECTIONS"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/EAU?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_EAU"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/10/L93_Inventaires?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_BRETAGNE_INVENTAIRES"/>
+    <!-- DREAL LORRAINE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_SARR?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_SARR"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_NANC?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_NANC"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_globale_lorraine?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_CARTE_GLOBALE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_METZ?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_METZ"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_DIE?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_DIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_n2000_grande_region?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_N2000_GRANDE_REGION"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_LONG?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_LONG"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_VERD?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_VERD"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_SEDA?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_SEDA"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_EPIN?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_EPIN"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_PONT?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_PONT"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_DI_TRI_NEUF?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_DI_TRI_NEUF"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/21/carte_zones_humides_lorraine?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LORRAINE_ZONES_HUMIDES"/>
+
+    <!-- DREAL LR -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/19/dreal_lr_general?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LR_DONNEES_GENERALES"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/19/dreal_lr_crues_rhone?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_LR_CRUES_RHONE"/>
 
     <!-- DREAL PACA -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/25/environnement?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_PACA_ENVIRONNMENT_INDUSTRIE_RISQUES"/>
-
-    <!-- DREAL CENTRE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/reperes_crue?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_REPERES_DE_CRUE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin1?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_BASSIN_LOIRE_BRETAGNE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_L214?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_SDAGE_2009"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eolien?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_EOLIEN"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_sdpc?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_SDPC"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/rzp_bassin?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_RZP"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_reseau_dce?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_DCE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/blois?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_BLOIS"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/orleans?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_ORLEANS"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/tours?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_TOURS"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_connaissance?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_CONNAISSANCE_BASSIN"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_L214_consultation2?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_L214_CONSULTATION"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/eau_bassin_tri?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_EAU_BASSIN_TRI"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/DREAL24?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_DREAL"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WMS/11/PHEC_CHER_NIEVRE?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_DREAL_CENTRE_PHEC_CHER_NIEVRE"/>
-
-    <!-- DREAL AQUITAINE -->
-
 
     <!-- ///////////////////// FRANCE ///////////////////// -->
     <!-- IGN -->
