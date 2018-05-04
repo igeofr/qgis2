@@ -384,7 +384,6 @@
     <!-- NASA -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://neowms.sci.gsfc.nasa.gov/wms/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="MONDE_NASA"/>
 
-
     <!-- ///////////////////// EUROPE ///////////////////// -->
     <!-- ESPAGNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/minutas-cartograficas?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_MINUTAS_CARTOGRAPHICAS"/>
