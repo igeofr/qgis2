@@ -259,10 +259,10 @@
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/stq_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_STATIONS"/>
     <wfs password="" referer="" username="" url="http://services.sandre.eaufrance.fr/geo/zon_FXX?VERSION=1.1.0" name="FRANCE_SANDRE_ZONAGES"/>
 
-    <!-- SHOM -->
+    <!-- GEOPORTAIL DE l'URBANISME -->
     <wfs password="" referer="" username="" url="http://wxs-gpu.mongeoportail.ign.fr/externe/39wtxmgtn23okfbbs1al2lz3/wfs" name="FRANCE_GEOPORTAIL_URBANISME"/>
 
-    <!-- GEOPORTAIL DE l'URBANISME -->
+    <!-- SHOM -->
     <wfs password="" referer="" username="" url="http://services.data.shom.fr/INSPIRE/wfs" name="FRANCE_SHOM"/>
 
     <!-- ///////////////////// DIVERS ///////////////////// -->
