@@ -49,6 +49,10 @@
     <!-- 44 - LOIRE ATLANTIQUE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://services.vuduciel.loire-atlantique.fr/geoserver/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_44_LOIRE_ATLANTIQUE_VUE_DU_CIEL"/>
 
+    <!-- 53 - MAYENNE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.geomayenne.fr/arcgis/services/D53_Ortho2013_HR/MapServer/WMSServer?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_53_MAYENNE_ORTHO2013"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.geomayenne.fr/arcgis/services/D53_Ortho2016_HR/MapServer/WMSServer?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_53_MAYENNE_ORTHO2016"/>
+
     <!-- 80 - SOMME -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.somme.fr/arcgis/services/SIG_CG_SOMME/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_80_SOMME"/>
 
@@ -258,8 +262,12 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://api.geofoncier.fr/referentielsoge/ogc/wxs?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOFONCIER"/>
 
     <!-- GEOLITTORAL -->
+    <!-- http://www.geolittoral.developpement-durable.gouv.fr/co-visualisation-wms-et-wfs-des-donnees-du-site-a803.html -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_TUILE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_WMTS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral2.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_WMTS2"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral3.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_WMTS3"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geolittoral4.application.developpement-durable.gouv.fr/cache/service/wmts" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEOLITORRAL_WMTS4"/>
 
     <!-- CADASTRE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://inspire.cadastre.gouv.fr/scpc/CODE_INSEE.wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CADASTRE"/>
@@ -381,5 +389,8 @@
     <!-- ESPAGNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/minutas-cartograficas?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_MINUTAS_CARTOGRAPHICAS"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/primera-edicion-mtn?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_PRIMERA_EDICION_MTN50"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms-inspire/pnoa-ma?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_ORTOFOTOS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/pnoa-historico?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_ORTOFOTOS_HISTORICAS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/planos?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_MAPAS_ANTIGUOS_DE_MADRID"/>
 
 </qgsWMSConnections>
