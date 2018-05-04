@@ -209,6 +209,7 @@
     <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/209/CADASTRE_MINIER_DGALN?" name="FRANCE_CADASTRE_MINIER"/>
 
     <!-- GEOLITTORAL -->
+    <!-- http://www.geolittoral.developpement-durable.gouv.fr/co-visualisation-wms-et-wfs-des-donnees-du-site-a803.html -->
     <wfs password="" referer="" username="" url="http://geolittoral.application.developpement-durable.gouv.fr/wms2/metropole" name="FRANCE_GEOLITTORAL"/>
 
     <!-- GEORISQUES -->
