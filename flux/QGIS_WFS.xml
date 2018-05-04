@@ -21,22 +21,25 @@
 
     <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
     <!-- 17 - CHARENTE MARITIME - GEOPLATEFORME -->
-    <wfs password="" referer="" username="" url="https://geo.geoplateforme17.fr/CG17/wfs" name="DEPARTEMENT_17_CHARENTE_MARITIME"/>
+    <wfs password="" referer="" username="" url="https://geo.geoplateforme17.fr/CG17/wfs" name="DEPARTEMENT_17_CHARENTE_MARITIME_GEOPLATEFORME17"/>
 
     <!-- 80 - SOMME -->
     <wfs password="" referer="" username="" url="http://geo.somme.fr/arcgis/services/SIG_CG_SOMME/MapServer/WFSServer" name="DEPARTEMENT_80_SOMME"/>
 
     <!-- 85 - GEO VENDEE -->
-    <wfs password="" referer="" username="" url="http://carto.geovendee.fr/cgi-bin/mapservwfs?" name="DEPARTEMENT_85_VENDEE"/>
+    <wfs password="" referer="" username="" url="http://carto.geovendee.fr/cgi-bin/mapservwfs?" name="DEPARTEMENT_85_VENDEE_GEOVENDEE"/>
 
     <!-- 93 - SEINE-SAINT-DENIS - GEOPORTAIL93.fr -->
-    <wfs password="" referer="" username="" url="http://geoportail93.fr/SERV/DATA/" name="DEPARTEMENT_SEINE_SAINT_DENIS"/>
+    <wfs password="" referer="" username="" url="http://geoportail93.fr/SERV/DATA/" name="DEPARTEMENT_93_SEINE_SAINT_DENIS"/>
 
     <!-- 94 - GEO VAL DE MARNE -->
     <wfs password="" referer="" username="" url="http://geo.valdemarne.fr/viewer/" name="DEPARTEMENT_94_VAL_DE_MARNE"/>
 
-    <!-- MAYOTTE -->
-    <wfs password="" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapservwfs?" name="DEPARTEMENT_MAYOTTE"/>
+    <!-- 974 - REUNION - PEIGEO -->
+    <wfs password="" referer="" username="" url="http://carto.peigeo.re/cgi-bin/mapservwfs?" name="DEPARTEMENT_974_REUNION_PEIGEO"/>
+
+    <!-- 976 - MAYOTTE - GEOMAYOTTE -->
+    <wfs password="" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapservwfs?" name="DEPARTEMENT_976_MAYOTTE_GEOMAYOTTE"/>
 
 
     <!-- ///////////////////// REGION ///////////////////// -->
@@ -93,9 +96,6 @@
 
     <!-- PEGASE -->
     <wfs password="" referer="" username="" url="http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?VERSION=1.1.0" name="REGION_PEGASE"/>
-
-    <!-- PEIGEO (REUNION)-->
-    <wfs password="" referer="" username="" url="http://carto.peigeo.re/cgi-bin/mapservwfs?" name="REGION_PEIGEO"/>
 
     <!-- PIGMA -->
     <wfs password="" referer="" username="" url="https://www.pigma.org/geoserver/wfs" name="REGION_PIGMA"/>
