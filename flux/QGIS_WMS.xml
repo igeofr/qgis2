@@ -41,7 +41,7 @@
 
     <!-- ///////////////////// DEPARTEMENT ///////////////////// -->
     <!-- 17 - CHARENTE MARITIME - GEOPLATEFORME -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://geo.geoplateforme17.fr/CG17/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_17_CHARENTE_MARITIME"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://geo.geoplateforme17.fr/CG17/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_17_CHARENTE_MARITIME_GEOPLATEFORME17"/>
 
     <!-- 41 - LOIRE ET CHER - PILOTE41 -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wms.pilote41.fr/urbanismewms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_41_LOIRE_ET_CHER_URBANISME"/>
@@ -57,7 +57,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.somme.fr/arcgis/services/SIG_CG_SOMME/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_80_SOMME"/>
 
     <!-- 85 - GEO VENDEE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geovendee.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_85_VENDEE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geovendee.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_85_VENDEE_GEOVENDEE"/>
 
     <!-- 93 - SEINE-SAINT-DENIS - GEOPORTAIL93.fr -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geoportail93.fr/SERV/DATA/" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_93_SEINE_SAINT_DENIS"/>
@@ -65,13 +65,16 @@
     <!-- 94 - GEO VAL DE MARNE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://geo.valdemarne.fr/viewer/" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_94_VAL_DE_MARNE"/>
 
-    <!-- MAYOTTE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_MAYOTTE"/>
+    <!-- 974 - REUNION - PEIGEO -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.peigeo.re/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_974_REUNION_PEIGEO"/>
 
-    <!-- GEOREP - NOUVELLE CALEDONIE -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.gouv.nc/arcgis/services/fond_simplifie/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_GEOREP_FOND_SIMPLIFIE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.gouv.nc/arcgis/services/plan_parcellaire_informatise/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_GEOREP_PARCELLAIRE_INFORMATISE"/>
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.gouv.nc/arcgis/services/toponymes/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_GEOREP_TOPONYMES"/>
+    <!-- 976 - MAYOTTE - GEOMAYOTTE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geomayotte.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_976_MAYOTTE_GEOMAYOTTE"/>
+
+    <!-- 988 - GEOREP - NOUVELLE CALEDONIE -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.gouv.nc/arcgis/services/fond_simplifie/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_988_NOUVELLE_CALEDONIE_GEOREP_FOND_SIMPLIFIE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.gouv.nc/arcgis/services/plan_parcellaire_informatise/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_988_NOUVELLE_CALEDONIE_GEOREP_PARCELLAIRE_INFORMATISE"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.gouv.nc/arcgis/services/toponymes/MapServer/WMSServer" invertAxisOrientation="false" ignoreAxisOrientation="false" name="DEPARTEMENT_988_NOUVELLE_CALEDONIE_GEOREP_TOPONYMES"/>
 
     <!-- ///////////////////// REGION ///////////////////// -->
     <!-- AIR BREIZH -->
@@ -151,9 +154,6 @@
 
     <!-- PEGASE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url=" http://datacarto.pegase-poitou-charentes.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PEGASE"/>
-
-    <!-- PEIGO (REUNION) -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.peigeo.re/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PPIGE"/>
 
     <!-- PIGMA -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://www.pigma.org/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_PIGMA_ALL"/>
