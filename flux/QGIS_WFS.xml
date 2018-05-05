@@ -191,9 +191,6 @@
     <!-- ATLASANTE -->
     <wfs password="" referer="" username="" url="https://carto.atlasante.fr/cgi-bin/mapservwfs?" name="FRANCE_ATLASANTE"/>
 
-    <!-- CLC -->
-    <wfs password="" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wfs" name="FRANCE_CLC"/>
-
     <!-- BRGM -->
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/geologie" name="FRANCE_BRGM_GEOLOGIE_HYDROGEOLOGIE_GRAVIMETRIE"/>
     <wfs password="" referer="" username="" url="http://geoservices.brgm.fr/odmgm" name="FRANCE_BRGM_OBSERVATOIRE_DES_MATERIAUX_GRANULATS_MARINS"/>
@@ -207,6 +204,9 @@
 
     <!-- CADASTRE MINIER -->
     <wfs password="" referer="" username="" url="http://ws.carmen.developpement-durable.gouv.fr/WFS/209/CADASTRE_MINIER_DGALN?" name="FRANCE_CADASTRE_MINIER"/>
+
+    <!-- CORINE LAND COVER IGN -->
+    <wfs password="" referer="" username="" url="http://wxs.ign.fr/corinelandcover/geoportail/wfs?" name="FRANCE_CORINE_LAND_COVER"/>
 
     <!-- GEOLITTORAL -->
     <!-- http://www.geolittoral.developpement-durable.gouv.fr/co-visualisation-wms-et-wfs-des-donnees-du-site-a803.html -->

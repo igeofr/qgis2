@@ -324,8 +324,9 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_Forets" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_FORETS"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ws.carmencarto.fr/WMS/105/ONF_RB_Metro?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_ONF_RESERVES_BIOLOGIQUES"/>
 
-    <!-- CLC -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://CLC.developpement-durable.gouv.fr/geoserver/wms" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CLC"/>
+    <!-- CORINE LAND COVER IGN -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wxs.ign.fr/corinelandcover/geoportail/r/wms?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CORINE_LAND_COVER_WMS"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://wxs.ign.fr/corinelandcover/geoportail/r/wmts?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_CORINE_LAND_COVER_WMTS"/>
 
     <!-- GEOIDE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://ogc.geo-ide.developpement-durable.gouv.fr/cartes/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="FRANCE_GEO_IDE"/>
