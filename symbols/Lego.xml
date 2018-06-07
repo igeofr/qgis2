@@ -1,0 +1,125 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol clip_to_extent="1" type="fill" name="Lego" alpha="1">
+      <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <prop k="displacement_x" v="0"/>
+        <prop k="displacement_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="distance_x" v="10"/>
+        <prop k="distance_x_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="10"/>
+        <prop k="distance_y_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <symbol clip_to_extent="1" type="marker" name="@Lego@0" alpha="1">
+          <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,213,1,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="square"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="244,244,244,65"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="10"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+          <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,213,1,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="255,213,1,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.8"/>
+            <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="5"/>
+            <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+            <effect type="effectStack" enabled="1">
+              <effect type="innerShadow">
+                <prop k="blend_mode" v="0"/>
+                <prop k="blur_level" v="1"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="draw_mode" v="2"/>
+                <prop k="enabled" v="1"/>
+                <prop k="offset_angle" v="135"/>
+                <prop k="offset_distance" v="0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="opacity" v="1"/>
+              </effect>
+              <effect type="dropShadow">
+                <prop k="blend_mode" v="21"/>
+                <prop k="blur_level" v="2"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="draw_mode" v="2"/>
+                <prop k="enabled" v="1"/>
+                <prop k="offset_angle" v="153"/>
+                <prop k="offset_distance" v="1"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="opacity" v="1"/>
+              </effect>
+              <effect type="drawSource">
+                <prop k="blend_mode" v="0"/>
+                <prop k="draw_mode" v="2"/>
+                <prop k="enabled" v="1"/>
+                <prop k="opacity" v="1"/>
+              </effect>
+            </effect>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option type="Map" name="properties">
+                  <Option type="Map" name="name">
+                    <Option type="bool" value="false" name="active"/>
+                    <Option type="int" value="1" name="type"/>
+                    <Option type="QString" value="" name="val"/>
+                  </Option>
+                </Option>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>

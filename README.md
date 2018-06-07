@@ -66,3 +66,9 @@ Pour ajouter des flux dans QGIS depuis un fichier xml :
   - [Supprimer les accents d'un champs (Majuscules)](expressions/supprimer_les_accents_minuscules.txt)
   - [Mise en forme des toponymes] (expressions/mise_en_forme_des_toponymes.txt)
   - [Mise en forme des toponymes une V2 plus complète en TEST](expressions/mise_en_forme_des_toponymes_V2_beta.txt) et basé sur [ce document de l'IGN](http://www.ign.fr/sites/all/files/charte_toponymie_ign.pdf) / Voir aussi [cet échange sur Géorezo](http://georezo.net/forum/viewtopic.php?pid=281390)
+
+# Symboles
+
+  **Lego :**
+  
+  - Les symboles Lego ont été créé à partir des informations disponibles sur [ce site](https://brickset.com/colours/chart) mais il existe aussi [ce site](http://ryanhowerter.net/colors.html)
