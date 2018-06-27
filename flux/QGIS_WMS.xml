@@ -119,7 +119,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geonormandie.fr/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEONORMANDIE"/>
 
     <!-- GEOPAL -->
-    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://carto.geopal.org/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPAL"/>
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="https://carto.geopal.org/cgi-bin/mapserv?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPAL"/>
 
     <!-- GEOPICARDIE -->
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.geopicardie.fr/geoserver/geopicardie/ows" invertAxisOrientation="false" ignoreAxisOrientation="false" name="REGION_GEOPICARDIE"/>

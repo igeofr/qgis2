@@ -62,7 +62,7 @@
     <wfs password="" referer="" username="" url="http://carto.geonormandie.fr/cgi-bin/mapservwfs?" name="REGION_GEONORMANDIE"/>
 
     <!-- GEOPAL -->
-    <wfs password="" referer="" username="" url="http://carto.geopal.org/cgi-bin/mapservwfs?" name="REGION_GEOPAL"/>
+    <wfs password="" referer="" username="" url="https://carto.geopal.org/cgi-bin/mapservwfs?" name="REGION_GEOPAL"/>
 
     <!-- GEOPICARDIE -->
     <wfs password="" referer="" username="" url="http://www.geopicardie.fr/geoserver/geopicardie/ows" name="REGION_GEOPICARDIE"/>
