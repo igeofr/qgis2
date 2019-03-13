@@ -398,4 +398,7 @@
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/pnoa-historico?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_ORTOFOTOS_HISTORICAS"/>
     <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://www.ign.es/wms/planos?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="ESPAGNE_IGN_MAPAS_ANTIGUOS_DE_MADRID"/>
 
+    <!-- COPERNICUS -->
+    <wms ignoreGetMapURI="false" smoothPixmapTransform="false" dpiMode="7" password="" ignoreGetFeatureInfoURI="false" referer="" username="" url="http://servicios.idee.es/wms/copernicus-landservice-spain?" invertAxisOrientation="false" ignoreAxisOrientation="false" name="EUROPE_COPERNICUS"/>
+
 </qgsWMSConnections>
